@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+   
+      
+      
+   
+      
+      
+   
+   <title>Embracing the Challenges of Technology - Haskell</title>
+   <link rel="apple-touch-icon" sizes="57x57" href="./../apple-touch-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="./../apple-touch-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="./../apple-touch-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="./../apple-touch-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="./../apple-touch-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="./../apple-touch-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="./../apple-touch-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="./../apple-touch-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="./../apple-touch-icon-180x180.png">
+   <link rel="icon" type="image/png" href="./../favicon-32x32.png" sizes="32x32">
+   <link rel="icon" type="image/png" href="./../android-chrome-192x192.png" sizes="192x192">
+   <link rel="icon" type="image/png" href="./../favicon-96x96.png" sizes="96x96">
+   <link rel="icon" type="image/png" href="./../favicon-16x16.png" sizes="16x16">
+   <link rel="icon" type="image/x-icon" href="./../favicon.ico" />
+   <link rel="manifest" href="./../manifest.json">
+   <link rel="mask-icon" href="./../safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#da532c">
+   <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+   <meta name="theme-color" content="#ffffff">
+   <link rel="canonical" href="./../" />
+   <link type="application/rss+xml" rel="alternate" title="RSS 2.0 - all posts" href="./.././rss.xml" />
+   <link rel="me" href="https://plus.google.com/110121544309331268618" />
+   <style type="text/css" media="screen">@import url( ./../css/style.css );</style>
+   <script type="text/javascript" src="./../js/blog.js"></script>
+</head>
+<body id="category-template">
+   <div id="page">
+      <div id="header">
+         <h1><a href="./.././index.html">Embracing the Challenges of Technology</a></h1>
+         <h2></h2>
+      </div>
+      <div id="nav" class="border-shadow-yellow">
+         <ul>
+            <li><a href="./.././index.html" title="Home">Home</a></li>
+            <li><a href="#">Recent Posts</a>
+               <ul class="border-shadow-green fallback">
+                  
+                     <li><a href="./.././archives/the-haskell-spin-project.html">The Haskell Spin Project</a></li>
+                  
+                     <li><a href="./.././archives/the-spin-project.html">The Spin Project</a></li>
+                  
+               </ul>
+            </li>
+            <li><a href="#">Category</a>
+               <ul class="border-shadow-green fallback">
+                  
+                     <li><a href="./.././archives/cat_bash-scripting.html" title="Bash-Scripting">Bash-Scripting</a></li>
+                  
+                     <li><a href="./.././archives/cat_general.html" title="General">General</a></li>
+                  
+                     <li><a href="./.././archives/cat_haskell.html" title="Haskell">Haskell</a></li>
+                  
+                     <li><a href="./.././archives/cat_quotes.html" title="Quotes">Quotes</a></li>
+                  
+                     <li><a href="./.././archives/cat_rust.html" title="Rust">Rust</a></li>
+                  
+                     <li><a href="./.././archives/cat_softwaredesign.html" title="Software Design">Software Design</a></li>
+                  
+                     <li><a href="./.././archives/cat_softwaredevelopment.html" title="Software Development">Software Development</a></li>
+                  
+                     <li><a href="./.././archives/cat_softwaretesting.html" title="Software Testing">Software Testing</a></li>
+                  
+               </ul>
+            </li>
+            <li><a href="#">Archives</a>
+               <ul class="border-shadow-green fallback">
+                  
+                     <li class="linear-gradient-green">2016</li>
+                     
+                        <li><a href="./.././archives/01-01-2016_01-31-2016.html" title="January">January</a></li>
+                     
+                  
+                     <li class="linear-gradient-green">2013</li>
+                     
+                        <li><a href="./.././archives/02-01-2013_02-28-2013.html" title="February">February</a></li>
+                     
+                  
+                     <li class="linear-gradient-green">2012</li>
+                     
+                        <li><a href="./.././archives/07-01-2012_07-31-2012.html" title="July">July</a></li>
+                     
+                  
+               </ul>
+            </li>
+            <li><a href="./.././archives.html" title="About">About</a></li>
+         </ul>
+      </div>
+      <div id="pagination">
+         
+            
+               <a href="./.././archives/cat_general.html">&laquo; General</a> |
+            
+         
+         <a href="./.././index.html">Main</a>
+         
+            
+               | <a href="./.././archives/cat_quotes.html">Quotes &raquo;</a>
+            
+         
+         <div class="clear-all"></div>
+      </div>
+      <div id="content">
+         
+            <div id="entry" class="border-shadow-blue">
+               <div class="entry-date border-shadow-blue">
+                  <div class="entry-date-month">Jul</div>
+                  <div class="entry-date-day">13</div>
+               </div>
+               <h2 class="entry-title"><a href="./.././archives/the-haskell-spin-project.html" rel="bookmark">The Haskell Spin Project</a></h2>
+               <div class="entry-description"></div>
+               <hr class="linear-gradient-blue" />
+               <div class="entry-body"><h3>
+  Goal:
+</h3>
+To&#160;<a href="http://rusticcoder.blogspot.com/2012/07/spin-project.html">create 
+a spin</a> tailored for Haskell.&#160; A single point where a noob or expert 
+can go to get access to the best tools and resources to be successful with 
+Haskell.<br><br>Please leave me comments with suggestions for Haskell 
+resources.&#160; This might include but not be limited to applications, IDEs, 
+IRC channels, blog sites, web sites, how to's, getting started, etc.<br><br>The 
+spin will need to contain everything a noob or expert would need to be 
+successful.</div>
+               <div class="entry-author">Posted by <a href="http://rusticcoder.github.io/">Rustic Coder</a> at 7:14 PM</div>
+               <hr class="linear-gradient-blue" />
+               <div class="entry-categories"><span class="entry-categories-title">Categories:</span> <span id="entry-categories-detail"><a href="./.././archives/cat_haskell.html">Haskell</a></span></div>
+               <div class="clear-all"></div>
+               <div class="entry-keywords"><span class="entry-keywords-title">Keywords:</span> <span id="entry-keywords-detail"></span></div>
+               <div class="clear-all"></div>
+               <div class="entry-labels"><span class="entry-labels-title">Labels:</span> <span id="entry-labels-detail"></span></div>
+               <div class="clear-all"></div>
+            </div>
+         
+            <div id="entry" class="border-shadow-blue">
+               <div class="entry-date border-shadow-blue">
+                  <div class="entry-date-month">Jul</div>
+                  <div class="entry-date-day">12</div>
+               </div>
+               <h2 class="entry-title"><a href="./.././archives/the-spin-project.html" rel="bookmark">The Spin Project</a></h2>
+               <div class="entry-description"></div>
+               <hr class="linear-gradient-blue" />
+               <div class="entry-body"><h3>
+  Goal:
+</h3>
+<div>
+  To create bootable DVDs (spins) tailored for specific tasks.
+</div>
+<h4>
+  What is a spin?
+</h4>
+<div>
+  Spins are a bootable DVD, independent of your installed operating 
+  system, tailored for various types of tasks via hand-picked applications 
+  and customizations.
+</div>
+<h4>
+  How do you use a spin?
+</h4>
+<div>
+  Using the ISO file provided for the spin, you can create a DVD that will 
+  boot into the spin when you insert it into a computer and turn it on or 
+  reboot.
+</div>
+<br>
+<div>
+  One thing to remember when you run a spin off of a DVD is that any 
+  additional applications you install will not be there when you reboot 
+  your computer - there isn't any way to work around this because you 
+  cannot write out a bootable DVD. Additionally, any files you save will 
+  be lost when you reboot because, it doesn't access your hard drive. When 
+  using DVD bootable spins, you should always make sure you save your 
+  files to an external device such as a flash drive or USB hard drive.
+</div>
+<h4>
+  Why use a spin?
+</h4>
+<div>
+  1. No fuss no muss, everything is pre-installed and working.
+</div>
+<div>
+  2. Try something new or demo something, no-risk. Try out new software 
+  without having to completely re-install your system.
+</div>
+<div>
+  3. You can choose to run the spin without affecting your computer's hard 
+  drive.
+</div>
+<h4>
+  What if I don't want to boot off a DVD?
+</h4>
+<div>
+  You can run the spin in a virtual environment. Since you will in fact be 
+  running two operating systems on the same computer, make sure you have 
+  enough RAM and at least a duo-core computer.
+</div>
+<br>
+<div>
+  <a href="http://geekyprojects.com/tutorials/how-to-run-an-iso-image-file-in-virtualbox/trackback/" target="_blank">How 
+  to Run an ISO Image File in VirtualBox</a>
+</div>
+<h4>
+  What if I want to use my own environment?
+</h4>
+<div>
+  You can download the Zim notebook that contains all the specifications 
+  for the bootable DVD.
+</div>
+<h4>
+  Zim? What if I just want the streight scoop?
+</h4>
+<div>
+  You can review the Zim notes in HTML format using your web browser.
+</div>
+<h3>
+  Problem Statement:
+</h3>
+<div>
+  Getting started with any technology can take a lot of time researching 
+  the best tools, blogs, and available resources.
+</div>
+<h3>
+  Solution:
+</h3>
+<div>
+  Create a single point where a noob or expert can go to get access to the 
+  best tools and resources to be successful with a specific technology.
+</div>
+<h3>
+  Spin Examples:
+</h3>
+<div>
+  Astronomy
+</div>
+<div>
+  Game Server
+</div>
+<div>
+  Language Specific spins; e.g. GoLang, Node.js, Haskell, Java, Closure, 
+  Scala, JavaScript
+</div>
+<div>
+  Media Server
+</div>
+<div>
+  Music Editing
+</div>
+<div>
+  Video Editing
+</div>
+<div>
+  Robotics
+</div>
+<h3>
+  Purpose:
+</h3>
+<div>
+  Each spin should be a grouping of tools to focus on a specific task. 
+  This might include but not be limited to applications, IDEs, list of IRC 
+  channels, list of blog sites, how to's, getting started, etc.
+</div>
+<br>
+<div>
+  The spin will contain everything a noob or expert would need to be 
+  successful.
+</div></div>
+               <div class="entry-author">Posted by <a href="http://rusticcoder.github.io/">Rustic Coder</a> at 8:37 AM</div>
+               <hr class="linear-gradient-blue" />
+               <div class="entry-categories"><span class="entry-categories-title">Categories:</span> <span id="entry-categories-detail"><a href="./.././archives/cat_haskell.html">Haskell</a></span></div>
+               <div class="clear-all"></div>
+               <div class="entry-keywords"><span class="entry-keywords-title">Keywords:</span> <span id="entry-keywords-detail"></span></div>
+               <div class="clear-all"></div>
+               <div class="entry-labels"><span class="entry-labels-title">Labels:</span> <span id="entry-labels-detail"></span></div>
+               <div class="clear-all"></div>
+            </div>
+         
+      </div>
+      <div id="footer" class="footer-text border-shadow-red">
+         <div>Copyright &copy; 2016 Embracing the Challenges of Technology <a href="#" class="footer-text" style="float: right;">Top</a></div>
+         <div class="clear-all"></div>
+      </div>
+   </div>
+   <div id="header-mask"></div>
+</body>
+</html>

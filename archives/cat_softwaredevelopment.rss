@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Embracing the Challenges of Technology</title>
+<link>./index.html</link>
+<description></description>
+<language>en-AU</language>
+<copyright>Copyright 2016</copyright>
+<lastBuildDate>Sat, 16 Jan 2016 20:16:40 -0600</lastBuildDate>
+<pubDate>Sat, 16 Jan 2016 20:16:40 -0600</pubDate>
+<generator>http://thingamablog.sf.net</generator>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+
+<item>
+<title>Commenting and Documenting Code</title>
+<description>&lt;p&gt;
+      I rarely comment my own code. The code I work on is rarely commented by 
+      my predecessors or fellow developers, and what is commented is rarely 
+      helpful. I read the existing comments as a last resort. So now that I am 
+      looking at doing more commenting of my code I need to ask the most 
+      important question, why comment?
+    &lt;/p&gt;
+    &lt;p&gt;
+      The code I write is generally readable. I use verbose variable names and 
+      reading from beginning to end the code makes sense. What I've commented 
+      in the past is descriptive overviews or commented sections of code that 
+      are not very clear as to the intent or how it works with other processes.
+    &lt;/p&gt;
+    &lt;p&gt;
+      When I've been asked to add more verbose commenting, it is in order to 
+      make the code clearer for others to understand or teach them 
+      programming. The problem I have with this approach is since I understand 
+      the code I don't know what the others do and don't understand about the 
+      code. Who reads the code in the future can very so greatly as far as 
+      skill set and experience that I end up over commenting the code. Instead 
+      of working independently, and commenting for a uncertain future I would 
+      prefer another developer take my code, comment it in their words and ask 
+      me questions as they comment my code. The benefit I see to this approach 
+      is it works as a code review, someone else learns the code as well as I, 
+      and it is commented with a fresh pair of eyes. It's understood that 
+      developers are bad at testing their own code, I feel the same is true 
+      for commenting.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Back to the question of why comment? I'm looking toward doing more open 
+      source development. Using open source for many years I've noticed the 
+      best solutions with the most contributors are also the best documented. 
+      When I come across a project with a interesting name but no 
+      documentation or examples I quickly walk away from the project. I'm not 
+      going to waste my time figuring out someone else's code just to find out 
+      it is not the right solution for my purposes.
+    &lt;/p&gt;
+    &lt;p&gt;
+      I'm going to build some libraries with the intent to benefit others. 
+      Documentation is critical to make these libraries beneficial to others. 
+      Additionally commenting the code allows me to take a step back and 
+      review the working solution in order to make it better. Improve the 
+      design, refactor to improve the usability and maintainability. For me 
+      software development is a evolutionary process, I never get it right the 
+      first time.
+    &lt;/p&gt;
+    &lt;p&gt;
+      When to comment? I feel the general consensus is I should just comment 
+      as we go along. For me every new project is unique. Often involving new 
+      techniques, designs, architectures, and processes. Because I am 
+      experimenting and the code is evolving, I'm refactoring as I go along, 
+      often development is more like a prototype then a product coming off the 
+      assembly line, commenting too soon is counter productive. Once the code 
+      is commented the feeling is it shouldn't change, it's finished. When the 
+      projects done it is often off to the new project, no time to go back and 
+      document.
+    &lt;/p&gt;
+    &lt;p&gt;
+      I'm going to try to document more as I go along but I will make a effort 
+      at the end of the project to revisit the comments before considering the 
+      project done. As I comment at the end of the project I will take the 
+      time to take a step back and review the working solution in order to 
+      make it better. Improve the design, refactor to improve the usability 
+      and maintainability.
+    &lt;/p&gt;
+    &lt;p&gt;
+      What should be commented is the most difficult. With the purpose of the 
+      comments to help new people to the project and help myself when I come 
+      back a year from now, comment verbosity needs to be taken into account.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Comments are not a programming instruction manual. If a developer does 
+      not know the language, syntax, or semantics, their are plenty of good 
+      resources the developer can turn to. Comments are not a description of 
+      best practices or a soap box. Best practices should be project wide not 
+      code specific, documented in a central location to be reviewed and 
+      updated as necessary.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Comments detail why was the code was written.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Document how the code is to be used, what should this do from a design 
+      perspective..
+    &lt;/p&gt;
+    &lt;p&gt;
+      I switched terms from comment to document. I feel there is a difference. 
+      Comments are brief, infrequent, and to the point. Documentation is 
+      verbose, out of the way from the code, and generally more helpful.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Comment as you need clarification, document for someone else who will 
+      need clarification.
+    &lt;/p&gt;
+    &lt;p&gt;
+      What should be commented? Comment from a high level what is going on. 
+      Comment local objects like functions, structures, enumerations, traits, 
+      closures, etc. as needed. Comment variables in special cases. For local 
+      objects they should be named in a way it is easy to determine its 
+      purpose so comments are not necessary. Code fragments should be brief so 
+      that if the name of a local variable is not clear, reading the code 
+      should revel the purpose of the object. Comment anything that might 
+      appear confusing, odd, or does not work in a standard expected way. And 
+      generally comment as to why the nonstandard, confusing, or odd code was 
+      not refactored.
+    &lt;/p&gt;
+    &lt;p&gt;
+      What should be documented? A overview description at the top of the file 
+      and before shared objects like functions, structures, enumerations, 
+      traits, closures, etc. explaining the purpose and detailing its expected 
+      use, and any oddities to expect when using the object. Examples work 
+      very well in documentation.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Where should this commenting and documenting be located?
+    &lt;/p&gt;
+    &lt;p&gt;
+      For me documentation starts at design. Whether it be cocktail napkin, 
+      e-mail, verbal communication all the design needs to be brought together 
+      into a coherent document. I take that design and slice it up, moving it 
+      into the various areas of the code. This might be front end, back end, 
+      middle tier, test cases, or supporting documents. When all is said and 
+      done the original design document is no more and has been destroyed. I 
+      do this for a few reasons. First, multiple copies of the documentation 
+      become out of sync. Second, it is easier to keep the documentation up to 
+      date and reference the documentation when it is close to the code, 
+      rather then in a document in some obscure location. Third, all too often 
+      someone who has been away from the project will grab the out of date 
+      documentation, reinterpret it, and try to make changes which should not 
+      be made.
+    &lt;/p&gt;
+    &lt;p&gt;
+      So as I alluded to the design documentation moves as the project 
+      progresses but finally it must rest somewhere.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        At the highest level is the readme which has a high level project 
+        overview, examples, how to install, and how to use the software.
+      &lt;/li&gt;
+      &lt;li&gt;
+        Documentation before the specific object is the object level overview.
+      &lt;/li&gt;
+      &lt;li&gt;
+        Specific code is documented as needed.
+      &lt;/li&gt;
+      &lt;li&gt;
+        But lastly most of the design ends up in the automated test cases. 
+        Test cases prove the code does what the design says it should do.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;
+      The challenge is many individuals want a document they can read from 
+      beginning to end and understand every detail of the project. My hope 
+      would be that compiling the readmes along with the test case 
+      documentation would provide a document suitable to understand the 
+      project from beginning to end.
+    &lt;/p&gt;</description>
+<link>./archives/commenting-and-documenting-code.html</link>
+<guid>./archives/commenting-and-documenting-code.html</guid>
+
+<category>Software Development</category>
+
+<pubDate>Sun, 10 Jan 2016 09:24:53 -0600</pubDate>
+</item>
+
+</channel>
+</rss>

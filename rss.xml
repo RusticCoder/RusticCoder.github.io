@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Embracing the Challenges of Technology</title>
+<link>./index.html</link>
+<description></description>
+<language>en-AU</language>
+<copyright>Copyright 2016</copyright>
+<lastBuildDate>Sat, 16 Jan 2016 20:16:41 -0600</lastBuildDate>
+<pubDate>Sat, 16 Jan 2016 20:16:41 -0600</pubDate>
+<generator>http://thingamablog.sf.net</generator>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+
+<item>
+<title>Commenting and Documenting Code</title>
+<description>
+&lt;p&gt; I rarely comment my own code. The code I work on is rarely
+commented by my predecessors or fellow developers,...&lt;/p&gt;
+</description>
+<link>./archives/commenting-and-documenting-code.html</link>
+<guid>./archives/commenting-and-documenting-code.html</guid>
+
+<category>Software Development</category>
+
+<pubDate>Sun, 10 Jan 2016 09:24:53 -0600</pubDate>
+</item>
+
+<item>
+<title>Preventing the same script from running at the same time.</title>
+<description>
+Scheduling scripts as cron jobs can be a guessing game.&amp;nbsp;
+Schedule the script to run too closely together e.g. every
+minute...
+</description>
+<link>./archives/preventing-the-same-script-from-running-at-the-same-time.html</link>
+<guid>./archives/preventing-the-same-script-from-running-at-the-same-time.html</guid>
+
+<category>Bash-Scripting</category>
+
+<pubDate>Sun, 24 Feb 2013 11:22:32 -0600</pubDate>
+</item>
+
+<item>
+<title>Bash Script Logging</title>
+<description>
+I often write bash scripts that run as cron jobs.&amp;nbsp; The most
+important question is &quot;What went wrong?&quot;.&amp;nbsp; This simple
+solution...
+</description>
+<link>./archives/bash-script-logging.html</link>
+<guid>./archives/bash-script-logging.html</guid>
+
+<category></category>
+
+<pubDate>Sun, 24 Feb 2013 10:55:56 -0600</pubDate>
+</item>
+
+<item>
+<title>When to use variables</title>
+<description>
+Using variables in scripts is often a case of personal style.&amp;nbsp;
+Years ago the style I used was to declare all...
+</description>
+<link>./archives/when-to-use-variables.html</link>
+<guid>./archives/when-to-use-variables.html</guid>
+
+<category>Bash-Scripting</category>
+
+<pubDate>Sun, 24 Feb 2013 10:18:01 -0600</pubDate>
+</item>
+
+</channel>
+</rss>

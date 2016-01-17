@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Embracing the Challenges of Technology</title>
+<link>./index.html</link>
+<description></description>
+<language>en-AU</language>
+<copyright>Copyright 2016</copyright>
+<lastBuildDate>Sat, 16 Jan 2016 20:16:40 -0600</lastBuildDate>
+<pubDate>Sat, 16 Jan 2016 20:16:40 -0600</pubDate>
+<generator>http://thingamablog.sf.net</generator>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+
+<item>
+<title>The Haskell Spin Project</title>
+<description>&lt;h3&gt;
+  Goal:
+&lt;/h3&gt;
+To&amp;#160;&lt;a href=&quot;http://rusticcoder.blogspot.com/2012/07/spin-project.html&quot;&gt;create 
+a spin&lt;/a&gt; tailored for Haskell.&amp;#160; A single point where a noob or expert 
+can go to get access to the best tools and resources to be successful with 
+Haskell.&lt;br&gt;&lt;br&gt;Please leave me comments with suggestions for Haskell 
+resources.&amp;#160; This might include but not be limited to applications, IDEs, 
+IRC channels, blog sites, web sites, how to's, getting started, etc.&lt;br&gt;&lt;br&gt;The 
+spin will need to contain everything a noob or expert would need to be 
+successful.</description>
+<link>./archives/the-haskell-spin-project.html</link>
+<guid>./archives/the-haskell-spin-project.html</guid>
+
+<category>Haskell</category>
+
+<pubDate>Fri, 13 Jul 2012 19:14:06 -0500</pubDate>
+</item>
+
+<item>
+<title>The Spin Project</title>
+<description>&lt;h3&gt;
+  Goal:
+&lt;/h3&gt;
+&lt;div&gt;
+  To create bootable DVDs (spins) tailored for specific tasks.
+&lt;/div&gt;
+&lt;h4&gt;
+  What is a spin?
+&lt;/h4&gt;
+&lt;div&gt;
+  Spins are a bootable DVD, independent of your installed operating 
+  system, tailored for various types of tasks via hand-picked applications 
+  and customizations.
+&lt;/div&gt;
+&lt;h4&gt;
+  How do you use a spin?
+&lt;/h4&gt;
+&lt;div&gt;
+  Using the ISO file provided for the spin, you can create a DVD that will 
+  boot into the spin when you insert it into a computer and turn it on or 
+  reboot.
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div&gt;
+  One thing to remember when you run a spin off of a DVD is that any 
+  additional applications you install will not be there when you reboot 
+  your computer - there isn't any way to work around this because you 
+  cannot write out a bootable DVD. Additionally, any files you save will 
+  be lost when you reboot because, it doesn't access your hard drive. When 
+  using DVD bootable spins, you should always make sure you save your 
+  files to an external device such as a flash drive or USB hard drive.
+&lt;/div&gt;
+&lt;h4&gt;
+  Why use a spin?
+&lt;/h4&gt;
+&lt;div&gt;
+  1. No fuss no muss, everything is pre-installed and working.
+&lt;/div&gt;
+&lt;div&gt;
+  2. Try something new or demo something, no-risk. Try out new software 
+  without having to completely re-install your system.
+&lt;/div&gt;
+&lt;div&gt;
+  3. You can choose to run the spin without affecting your computer's hard 
+  drive.
+&lt;/div&gt;
+&lt;h4&gt;
+  What if I don't want to boot off a DVD?
+&lt;/h4&gt;
+&lt;div&gt;
+  You can run the spin in a virtual environment. Since you will in fact be 
+  running two operating systems on the same computer, make sure you have 
+  enough RAM and at least a duo-core computer.
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div&gt;
+  &lt;a href=&quot;http://geekyprojects.com/tutorials/how-to-run-an-iso-image-file-in-virtualbox/trackback/&quot; target=&quot;_blank&quot;&gt;How 
+  to Run an ISO Image File in VirtualBox&lt;/a&gt;
+&lt;/div&gt;
+&lt;h4&gt;
+  What if I want to use my own environment?
+&lt;/h4&gt;
+&lt;div&gt;
+  You can download the Zim notebook that contains all the specifications 
+  for the bootable DVD.
+&lt;/div&gt;
+&lt;h4&gt;
+  Zim? What if I just want the streight scoop?
+&lt;/h4&gt;
+&lt;div&gt;
+  You can review the Zim notes in HTML format using your web browser.
+&lt;/div&gt;
+&lt;h3&gt;
+  Problem Statement:
+&lt;/h3&gt;
+&lt;div&gt;
+  Getting started with any technology can take a lot of time researching 
+  the best tools, blogs, and available resources.
+&lt;/div&gt;
+&lt;h3&gt;
+  Solution:
+&lt;/h3&gt;
+&lt;div&gt;
+  Create a single point where a noob or expert can go to get access to the 
+  best tools and resources to be successful with a specific technology.
+&lt;/div&gt;
+&lt;h3&gt;
+  Spin Examples:
+&lt;/h3&gt;
+&lt;div&gt;
+  Astronomy
+&lt;/div&gt;
+&lt;div&gt;
+  Game Server
+&lt;/div&gt;
+&lt;div&gt;
+  Language Specific spins; e.g. GoLang, Node.js, Haskell, Java, Closure, 
+  Scala, JavaScript
+&lt;/div&gt;
+&lt;div&gt;
+  Media Server
+&lt;/div&gt;
+&lt;div&gt;
+  Music Editing
+&lt;/div&gt;
+&lt;div&gt;
+  Video Editing
+&lt;/div&gt;
+&lt;div&gt;
+  Robotics
+&lt;/div&gt;
+&lt;h3&gt;
+  Purpose:
+&lt;/h3&gt;
+&lt;div&gt;
+  Each spin should be a grouping of tools to focus on a specific task. 
+  This might include but not be limited to applications, IDEs, list of IRC 
+  channels, list of blog sites, how to's, getting started, etc.
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div&gt;
+  The spin will contain everything a noob or expert would need to be 
+  successful.
+&lt;/div&gt;</description>
+<link>./archives/the-spin-project.html</link>
+<guid>./archives/the-spin-project.html</guid>
+
+<category>Haskell</category>
+
+<pubDate>Thu, 12 Jul 2012 08:37:07 -0500</pubDate>
+</item>
+
+</channel>
+</rss>

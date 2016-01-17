@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Embracing the Challenges of Technology</title>
+<link>./index.html</link>
+<description></description>
+<language>en-AU</language>
+<copyright>Copyright 2016</copyright>
+<lastBuildDate>Sat, 16 Jan 2016 20:16:40 -0600</lastBuildDate>
+<pubDate>Sat, 16 Jan 2016 20:16:40 -0600</pubDate>
+<generator>http://thingamablog.sf.net</generator>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+
+<item>
+<title>Computer Mistakes</title>
+<description>&lt;p&gt;
+  &lt;img width=&quot;800&quot; src=&quot;../images/quotes/mitch_ratcliffe_computer_mistakes.png&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;A computer lets you make more mistakes faster than any other invention 
+  with the possible exceptions of handguns and Tequila.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Mitch Ratcliffe
+&lt;/p&gt;</description>
+<link>./archives/computer-mistakes.html</link>
+<guid>./archives/computer-mistakes.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Understanding Recursion</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/anonymous_recursion.png&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;In order to understand recursion, one must first understand recursion.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Anonymous
+&lt;/p&gt;</description>
+<link>./archives/understanding-recursion.html</link>
+<guid>./archives/understanding-recursion.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Measuring Programming Progress</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/bill_gates_measuring_programming.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;Measuring programming progress by lines of code is like measuring 
+  aircraft building progress by weight.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Bill Gates
+&lt;/p&gt;</description>
+<link>./archives/measuring-programming-progress.html</link>
+<guid>./archives/measuring-programming-progress.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Berkeley Products</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/jeremy_anderson_berkeley_products.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;There are two major products that came out of Berkeley: LSD and UNIX. 
+  We don't believe this to be a coincidence.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Jeremy S. Anderson
+&lt;/p&gt;</description>
+<link>./archives/berkeley-products.html</link>
+<guid>./archives/berkeley-products.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Software Design Two Ways</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/c_a_r_hoare_constructing_software.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;There are two ways of constructing a software design: One way is to 
+  make it so simple that there are obviously no deficiencies, and the 
+  other way is to make it so complicated that there are no obvious 
+  deficiencies. The first method is far more difficult. It demands the 
+  same skill, devotion, insight, and even inspiration as the discovery of 
+  the simple physical laws which underlie the complex phenomena of nature.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;C. A. R. Hoare
+&lt;/p&gt;</description>
+<link>./archives/software-design-two-ways.html</link>
+<guid>./archives/software-design-two-ways.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>90 Percent</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/tom_cargill_90_percent.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;The first 90 percent of the code accounts for the first 90 percent of 
+  the development time. The remaining 10 percent of the code accounts for 
+  the other 90 percent of the development time.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Tom Cargill
+&lt;/p&gt;</description>
+<link>./archives/90-percent.html</link>
+<guid>./archives/90-percent.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Building Bigger Better Idiots</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/rick_cook_bigger_idiots.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;Programming today is a race between software engineers striving to 
+  build bigger and better idiot-proof programs, and the Universe trying to 
+  produce bigger and better idiots. So far, the Universe is winning.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Rick Cook
+&lt;/p&gt;</description>
+<link>./archives/building-bigger-better-idiots.html</link>
+<guid>./archives/building-bigger-better-idiots.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Reusable Software</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/ralph_johnson_reusable_software.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;Before software can be reusable it first has to be usable.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Ralph Johnson
+&lt;/p&gt;</description>
+<link>./archives/reusable-software.html</link>
+<guid>./archives/reusable-software.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Woodpecker Programmers</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/gerald_weinberg_woodpecker_programming.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;If builders built buildings the way programmers wrote programs, then 
+  the first woodpecker that came along would destroy civilization.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Gerald Weinberg
+&lt;/p&gt;</description>
+<link>./archives/woodpecker-programmers.html</link>
+<guid>./archives/woodpecker-programmers.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>To Add and Remove Bugs</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/edsger_dijkstra_add_remove_bugs.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;If debugging is the process of removing bugs, then programming must be 
+  the process of putting them in.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Edsger Dijkstra
+&lt;/p&gt;</description>
+<link>./archives/to-add-and-remove-bugs.html</link>
+<guid>./archives/to-add-and-remove-bugs.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>9000 Shots</title>
+<description>&lt;p&gt;
+  &lt;img width=&quot;800&quot; src=&quot;../images/quotes/michael_jordan_9000_shots.png&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;I&amp;#8217;ve missed more than 9000 shots in my career. I&amp;#8217;ve lost almost 300 
+  games. 26 times I&amp;#8217;ve been trusted to take the game winning shot and 
+  missed. I&amp;#8217;ve failed over and over and over again in my life. And that is 
+  why I succeed.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Michael Jordan
+&lt;/p&gt;</description>
+<link>./archives/9000-shots.html</link>
+<guid>./archives/9000-shots.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Big Fail</title>
+<description>&lt;p&gt;
+  &lt;img width=&quot;800&quot; src=&quot;../images/quotes/norman_vaughan_big_fail.jpg&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;Dream big and dare to fail.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Norman Vaughan
+&lt;/p&gt;</description>
+<link>./archives/big-fail.html</link>
+<guid>./archives/big-fail.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Fail The Test</title>
+<description>&lt;p&gt;
+  &lt;img width=&quot;800&quot; src=&quot;../images/quotes/benjamin_franklin_fail_the_test.jpg&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;I didn&amp;#8217;t fail the test. I just found 100 ways to do it wrong.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Benjamin Franklin
+&lt;/p&gt;</description>
+<link>./archives/fail-the-test.html</link>
+<guid>./archives/fail-the-test.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Overcoming Challenges</title>
+<description>&lt;p&gt;
+  &lt;img width=&quot;800&quot; src=&quot;../images/quotes/joshua_marine_overcoming_challenges.jpg&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;Challenges are what make life interesting and overcoming them is what 
+  makes life meaningful.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Joshua J. Marine
+&lt;/p&gt;</description>
+<link>./archives/overcoming-challenges.html</link>
+<guid>./archives/overcoming-challenges.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Can't Fall</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/unknown_cant_fall.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;You can&amp;#8217;t fall if you don&amp;#8217;t climb. But there&amp;#8217;s no joy in living your 
+  whole life on the ground.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Unknown
+&lt;/p&gt;</description>
+<link>./archives/cant-fall.html</link>
+<guid>./archives/cant-fall.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>See The Shore</title>
+<description>&lt;p&gt;
+  &lt;img width=&quot;800&quot; src=&quot;../images/quotes/christopher_columbus_see_the_shore.jpg&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;You can never cross the ocean until you have the courage to lose sight 
+  of the shore.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Christopher Columbus
+&lt;/p&gt;</description>
+<link>./archives/see-the-shore.html</link>
+<guid>./archives/see-the-shore.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Premature Optimization</title>
+<description>&lt;p&gt;
+  &lt;img width=&quot;800&quot; src=&quot;../images/quotes/donald_knuth_premature_optimization.png&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;Premature optimization is the root of all evil&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Donald Knuth
+&lt;/p&gt;</description>
+<link>./archives/premature-optimization.html</link>
+<guid>./archives/premature-optimization.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>A Year Later</title>
+<description>&lt;p&gt;
+  &lt;img width=&quot;800&quot; src=&quot;../images/quotes/fred_brooks_year_late.jpg&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;How does a project get to be a year late? One day at a time.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Frederick P. Brooks Jr.
+&lt;/p&gt;</description>
+<link>./archives/a-year-later.html</link>
+<guid>./archives/a-year-later.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Adding Manpower</title>
+<description>&lt;p&gt;
+  &lt;img width=&quot;800&quot; src=&quot;../images/quotes/fred_brooks_adding_manpower.jpg&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;Adding manpower to a late software project, makes it later.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Frederick P. Brooks Jr.
+&lt;/p&gt;</description>
+<link>./archives/adding-manpower.html</link>
+<guid>./archives/adding-manpower.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Nine Month Project</title>
+<description>&lt;p&gt;
+  &lt;img width=&quot;800&quot; src=&quot;../images/quotes/fred_brooks_nine_months.jpg&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;The bearing of a child takes nine months, no matter how many women are 
+  assigned.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Frederick P. Brooks Jr.
+&lt;/p&gt;</description>
+<link>./archives/nine-month-project.html</link>
+<guid>./archives/nine-month-project.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Good Bad Experience</title>
+<description>&lt;p&gt;
+  &lt;img width=&quot;800&quot; src=&quot;../images/quotes/fred_brooks_good_bad_experience.jpg&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;Good judgement comes from experience, and experience comes from bad 
+  judgement.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Frederick P. Brooks Jr.
+&lt;/p&gt;</description>
+<link>./archives/good-bad-experience.html</link>
+<guid>./archives/good-bad-experience.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Not Useless</title>
+<description>&lt;p&gt;
+  &lt;img width=&quot;800&quot; src=&quot;../images/quotes/thomas_edison_not_useless.jpg&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;Just because something doesn't do what you planned it to do doesn't 
+  mean it's useless.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Thomas A. Edison
+&lt;/p&gt;</description>
+<link>./archives/not-useless.html</link>
+<guid>./archives/not-useless.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>2000 Step Process</title>
+<description>&lt;p&gt;
+  &lt;img width=&quot;800&quot; src=&quot;../images/quotes/thomas_edison_2000_step_process.jpg&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;I never failed once. It just happened to be a 2000-step process.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Thomas A. Edison
+&lt;/p&gt;</description>
+<link>./archives/2000-step-process.html</link>
+<guid>./archives/2000-step-process.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Be of Value</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/be_of_value.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;Strive not to be a success, but rather to be of value.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Albert Einstein
+&lt;/p&gt;</description>
+<link>./archives/be-of-value.html</link>
+<guid>./archives/be-of-value.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>The Line That Never Breaks</title>
+<description>&lt;p&gt;&amp;quot;The line of code that’s the fastest to write, that never breaks, that doesn’t need maintenance, is the line you never had to write.&amp;quot;&lt;/p&gt;
+&lt;p&gt;&amp;#8212;Steve Jobs&lt;/p&gt;</description>
+<link>./archives/the-line-that-never-breaks.html</link>
+<guid>./archives/the-line-that-never-breaks.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Avoid Clever Tricks</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/avoids_clever_tricks.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;The competent programmer is fully aware of the strictly limited size of 
+  his own skull; therefore he approaches the programming task in full 
+  humility, and among other things he avoids clever tricks like the 
+  plague.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Edsger Dijkstra
+&lt;/p&gt;</description>
+<link>./archives/avoid-clever-tricks.html</link>
+<guid>./archives/avoid-clever-tricks.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Avoid a Problem</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/avoid_a_problem.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;A clever person solves a problem. A wise person AVOIDS it.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Albert Einstein
+&lt;/p&gt;</description>
+<link>./archives/avoid-a-problem.html</link>
+<guid>./archives/avoid-a-problem.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Efficiency Sins</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/william_wulf_efficiency_sins.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;More computing sins are committed in the name of efficiency (without 
+  necessarily achieving it) than for any other single reason - including 
+  blind stupidity.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;William Wulf
+&lt;/p&gt;</description>
+<link>./archives/efficiency-sins.html</link>
+<guid>./archives/efficiency-sins.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Throw Away Systems</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/fred_brooks_plan_to_throw.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot; Where a new system concept or new technology is used, one has to build 
+  a system to throw away, for even the best planning is not so omniscient 
+  as to get it right the first time. Hence plan to throw one away; you 
+  will, anyhow.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Fred Brooks
+&lt;/p&gt;</description>
+<link>./archives/throw-away-systems.html</link>
+<guid>./archives/throw-away-systems.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>More From Failure Than Success</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/fred_brooks_learn_more_from_failure.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;You can learn more from failure than success. In failure you&amp;#8217;re forced 
+  to find out what part did not work. But in success you can believe 
+  everything you did was great, when in fact some parts may not have 
+  worked at all. Failure forces you to face reality.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Fred Brooks
+&lt;/p&gt;</description>
+<link>./archives/more-from-failure-than-success.html</link>
+<guid>./archives/more-from-failure-than-success.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Safe Harbor</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/william_shedd_safe_harbor.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;A ship is safe in harbor, but that is not what a ship was built for&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;William H Shedd
+&lt;/p&gt;</description>
+<link>./archives/safe-harbor.html</link>
+<guid>./archives/safe-harbor.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Something to Say</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/plato_something_to_say.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;Wise men speak because they have something to say; Fools because they 
+  have to say something.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Plato
+&lt;/p&gt;</description>
+<link>./archives/something-to-say.html</link>
+<guid>./archives/something-to-say.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Fools Speak</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/abraham_lincoln_fools_speak.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;Better to remain silent and be thought a fool than to speak out and 
+  remove all doubt.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Abraham Lincoln
+&lt;/p&gt;</description>
+<link>./archives/fools-speak.html</link>
+<guid>./archives/fools-speak.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Improbable Truth</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/sherlock_holmes_improbable_truth.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;How often have I said to you that when you have eliminated the 
+  impossible, whatever remains, however improbable, must be the truth?&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Sherlock Holmes
+&lt;/p&gt;</description>
+<link>./archives/improbable-truth.html</link>
+<guid>./archives/improbable-truth.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Avoid Criticism</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/aristotle_avoid_criticism.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;There is only one way to avoid criticism: do nothing, say nothing, and 
+  be nothing.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Aristotle
+&lt;/p&gt;</description>
+<link>./archives/avoid-criticism.html</link>
+<guid>./archives/avoid-criticism.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Mistakes Tried</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/albert_einstein_mistakes_tried.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;A person who never made a mistake never tried anything new.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Albert Einstein
+&lt;/p&gt;</description>
+<link>./archives/mistakes-tried.html</link>
+<guid>./archives/mistakes-tried.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Missed Shots</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/wayne_gretzky_missed_shots.png&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;You miss 100% of the shots you don&amp;#8217;t take.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Wayne Gretzky
+&lt;/p&gt;</description>
+<link>./archives/missed-shots.html</link>
+<guid>./archives/missed-shots.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Be Yourself</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/oscar_wilde_be_yourself.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;Be yourself; everyone else is already taken.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Oscar Wilde
+&lt;/p&gt;</description>
+<link>./archives/be-yourself.html</link>
+<guid>./archives/be-yourself.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Difficult vs. Impossible</title>
+<description>&lt;p&gt;
+  &lt;img width=&quot;800&quot; src=&quot;../images/quotes/usace_difficult_vs_impossible.jpg&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;The difficult we do immediately. The impossible takes a little longer.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Motto of the U.S. Army Corps of Engineers during World War II
+&lt;/p&gt;</description>
+<link>./archives/difficult-vs-impossible.html</link>
+<guid>./archives/difficult-vs-impossible.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Smooth Sea</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/english_proverb_smooth_sea.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;A smooth sea never made a skillful sailor&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;English proverb
+&lt;/p&gt;</description>
+<link>./archives/smooth-sea.html</link>
+<guid>./archives/smooth-sea.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+<item>
+<title>Insanity</title>
+<description>&lt;p&gt;
+  &lt;img src=&quot;../images/quotes/albert_einstein_insanity.jpg&quot; width=&quot;800&quot;&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;quot;Insanity is doing the same thing, over and over again, but expecting 
+  different results.&amp;quot;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;#8212;Albert Einstein
+&lt;/p&gt;</description>
+<link>./archives/insanity.html</link>
+<guid>./archives/insanity.html</guid>
+
+<category>Quotes</category>
+
+<pubDate>Mon, 09 Jul 2012 00:00:00 -0500</pubDate>
+</item>
+
+</channel>
+</rss>

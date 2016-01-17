@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Embracing the Challenges of Technology</title>
+<link>./index.html</link>
+<description></description>
+<language>en-AU</language>
+<copyright>Copyright 2016</copyright>
+<lastBuildDate>Sat, 16 Jan 2016 20:16:40 -0600</lastBuildDate>
+<pubDate>Sat, 16 Jan 2016 20:16:40 -0600</pubDate>
+<generator>http://thingamablog.sf.net</generator>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+
+<item>
+<title>Preventing the same script from running at the same time.</title>
+<description>Scheduling scripts as cron jobs can be a guessing game.&amp;#160; Schedule the 
+    script to run too closely together e.g. every minute and it can step on 
+    itself.&amp;#160; Schedule it too far apart e.g. every hour and it will not perform 
+    what it is intended to.&lt;br&gt;&lt;br&gt;The answer is a PID file.&amp;#160; A PID file is a 
+    file containing the Linux &lt;a href=&quot;http://en.wikipedia.org/wiki/Process_identifier&quot; target=&quot;_blank&quot;&gt;process 
+    identification number (pid)&lt;/a&gt; for the current running script.&lt;br&gt;&lt;br&gt;By 
+    using the PID file a job can be scheduled to run every minute but will 
+    only execute if it is not already running.&lt;br&gt;&lt;br&gt;
+
+    &lt;blockquote&gt;
+      export MAILNAME=`echo &amp;quot;${HOSTNAME}&amp;quot; | cut -d '.' -f 1`&lt;br&gt;export 
+      MAILUSER=RusticCoder&lt;br&gt;export MAILHOST=GMail.com&lt;br&gt;export 
+      MAIL=${MAILUSER}@${MAILHOST}&lt;br&gt;export EMAIL=${MAILUSER}@${MAILHOST}&lt;br&gt;export 
+      REPLYTO=${MAILUSER}@${MAILHOST}&lt;br&gt;&lt;br&gt;SCRIPT_NAME=`basename &amp;quot;${0}&amp;quot; .sh`&lt;br&gt;LOG_DIR=&amp;quot;~/logs&amp;quot;&lt;br&gt;PID_FILE=&amp;quot;${LOG_DIR}/${SCRIPT_NAME}.pid&amp;quot;&lt;br&gt;&lt;br&gt;mkdir 
+      -p &amp;quot;${LOG_DIR}&amp;quot;&lt;br&gt;&lt;br&gt;if [ -f &amp;quot;${PID_FILE}&amp;quot; ]; then&lt;br&gt;&amp;#160;&amp;#160; 
+      OLD_PID=`cat &amp;quot;${PID_FILE}&amp;quot;`&lt;br&gt;&amp;#160;&amp;#160; IS_RUNNING=`ps ax | grep 
+      &amp;quot;${OLD_PID}&amp;quot; | grep &amp;quot;${SCRIPT_NAME}&amp;quot;`&lt;br&gt;&lt;br&gt;&amp;#160;&amp;#160; if [ 
+      -n &amp;quot;${IS_RUNNING}&amp;quot; ]; then&lt;br&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; echo &amp;quot;`date +'%Y-%m-%d 
+      %H:%M:%S'` ${SCRIPT_NAME} (Exception): Currently running.&amp;quot;&lt;br&gt;&amp;#160;&amp;#160; 
+      else&lt;br&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; echo &amp;quot;`date +'%Y-%m-%d %H:%M:%S'` ${SCRIPT_NAME}: Not 
+      running remove the PID file.&amp;quot;&lt;br&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; rm -f &amp;quot;${PID_FILE}&amp;quot;&lt;br&gt;&amp;#160;&amp;#160; 
+      fi&lt;br&gt;fi&lt;br&gt;&lt;br&gt;if [ -f &amp;quot;${PID_FILE}&amp;quot; ]; then&lt;br&gt;&amp;#160;&amp;#160; if [ `find 
+      &amp;quot;${PID_FILE}&amp;quot; -mmin +30` ]; then&lt;br&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; echo &amp;quot;${0} on 
+      ${HOSTNAME} has been running longer then 30 minutes.&amp;quot; | mail -s 
+      &amp;quot;`basename \&amp;quot;${0}\&amp;quot;` still running&amp;quot; &amp;quot;${EMAIL}&amp;quot; -- -F &amp;quot;${MAILNAME}&amp;quot; -f 
+      &amp;quot;${REPLYTO}&amp;quot;&lt;br&gt;&amp;#160;&amp;#160; fi&lt;br&gt;else&lt;br&gt;&amp;#160;&amp;#160; CURRENT_PID=$$&lt;br&gt;&lt;br&gt;&amp;#160;&amp;#160; 
+      echo ${CURRENT_PID} &amp;gt; &amp;quot;${PID_FILE}&amp;quot;&lt;br&gt;&lt;br&gt;&amp;#160;&amp;#160;&lt;br&gt;&amp;#160;&amp;#160; 
+      &amp;lt;Perform processing here&amp;gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;#160;&amp;#160; if [ -f &amp;quot;${PID_FILE}&amp;quot; ]; 
+      then&lt;br&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; rm -f &amp;quot;${PID_FILE}&amp;quot;&lt;br&gt;&amp;#160;&amp;#160; 
+      fi&lt;br&gt;fi
+    &lt;/blockquote&gt;
+    I start by checking if the PID file exists.&amp;#160; Even if the file exists the 
+    process may have been killed.&amp;#160; If the process has been killed just remove 
+    the file.&amp;#160; Then I check again if the file exists and if it has been 
+    running for longer then 30 minutes I let myself know.&amp;#160; Otherwise I create 
+    a PID file, do what I need to do, and remove the file.</description>
+<link>./archives/preventing-the-same-script-from-running-at-the-same-time.html</link>
+<guid>./archives/preventing-the-same-script-from-running-at-the-same-time.html</guid>
+
+<category>Bash-Scripting</category>
+
+<pubDate>Sun, 24 Feb 2013 11:22:32 -0600</pubDate>
+</item>
+
+<item>
+<title>When to use variables</title>
+<description>Using variables in scripts is often a case of personal style.&amp;#160; Years ago 
+    the style I used was to declare all variables at the top of a script.&amp;#160; I 
+    found that challenging with long scripts.&amp;#160; Needing to scroll up and down 
+    to see what the variable is set to.&amp;#160; And while maintaining the script the 
+    value could be changed by another developer not realizing the impact 
+    further down the script.&lt;br&gt;&lt;br&gt;Lately the style I use is to declare and 
+    set the variable close to where it is being used.&amp;#160; I upper case with 
+    underscore variables that are not to be changed aka constants.&amp;#160; I camel 
+    case with a initial upper case variables that are meant to change during 
+    the course of the script.&lt;br&gt;
+
+    &lt;blockquote&gt;
+      SCRIPT_NAME=`basename &amp;quot;${0}&amp;quot; .sh`&lt;br&gt;CURRENT_DATE=`date 
+      +'%Y%m%d'`&lt;br&gt;LOG_DIR=&amp;quot;~/logs&amp;quot;&lt;br&gt;LOG_FILE=&amp;quot;${LOG_DIR}/${SCRIPT_NAME}_${CURRENT_DATE}.log&amp;quot;&lt;br&gt;ERROR_FILE=&amp;quot;${LOG_DIR}/${SCRIPT_NAME}_${CURRENT_DATE}.err&amp;quot;&lt;br&gt;&lt;br&gt;ItemIndex=0
+    &lt;/blockquote&gt;
+    Another personal style is to always use curly braces around variables.&amp;#160; I 
+    find reading the following $SCRIPT_NAME_$CURRENT_DATE.err looks to me like 
+    .err is a method without parameters and the under score before the dollar 
+    sign does not stand out.&amp;#160; For me ${SCRIPT_NAME}_${CURRENT_DATE}.err is 
+    just easier to read.</description>
+<link>./archives/when-to-use-variables.html</link>
+<guid>./archives/when-to-use-variables.html</guid>
+
+<category>Bash-Scripting</category>
+
+<pubDate>Sun, 24 Feb 2013 10:18:01 -0600</pubDate>
+</item>
+
+<item>
+<title>Running scripts as cron jobs</title>
+<description>Just a little note.&amp;#160; When you run a cron job under a user the 
+    .bash_profile for that user does not always get executed.&amp;#160; This can cause 
+    different results when running the script from the command line and as a 
+    scheduled job.&amp;#160; The following snippet can even the playing field.&lt;br&gt;
+
+    &lt;blockquote&gt;
+      # Even the playing field between cron jobs and command line&lt;br&gt;if [ -f 
+      ~/.bash_profile ]; then&lt;br&gt;&amp;#160;&amp;#160; . ~/.bash_profile&lt;br&gt;fi
+    &lt;/blockquote&gt;</description>
+<link>./archives/running-scripts-as-cron-jobs.html</link>
+<guid>./archives/running-scripts-as-cron-jobs.html</guid>
+
+<category>Bash-Scripting</category>
+
+<pubDate>Sun, 24 Feb 2013 09:16:08 -0600</pubDate>
+</item>
+
+</channel>
+</rss>
