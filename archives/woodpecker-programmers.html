@@ -1,6 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "//www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="//www.w3.org/1999/xhtml" itemscope itemtype="//schema.org/Blog">
 <head>
    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
    
@@ -27,13 +27,25 @@
    <meta name="msapplication-TileColor" content="#da532c">
    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
    <meta name="theme-color" content="#ffffff">
+   <meta itemprop="name" content="Embracing the Challenges of Technology">
+   <meta itemprop="image" content="//rusticcoder.github.io/images/photo.jpg">
    <link rel="canonical" href="./../" />
    <link type="application/rss+xml" rel="alternate" title="RSS 2.0 - all posts" href="./.././rss.xml" />
-   <link rel="me" href="https://plus.google.com/110121544309331268618" />
+   <link rel="me" href="//plus.google.com/110121544309331268618" />
    <style type="text/css" media="screen">@import url( ./../css/style.css );</style>
-   <script type="text/javascript" src="./../js/blog.js"></script>
+   <script src="./../js/blog.js"></script>
+   <script src="//apis.google.com/js/platform.js" async defer></script>
+   <script src="//platform.linkedin.com/in.js">lang: en_US</script>
 </head>
 <body id="entry-template">
+   <div id="fb-root"></div>
+   <script>(function(d, s, id) {
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) return;
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));</script>
    <div id="page">
       <div id="header">
          <h1><a href="./.././index.html">Embracing the Challenges of Technology</a></h1>
@@ -92,6 +104,10 @@
             </li>
             <li><a href="./.././archives.html" title="About">About</a></li>
          </ul>
+         <div id="twitter-follow-button" class="hide-til-load">
+            <a href="//twitter.com/RusticCoder" class="twitter-follow-button" data-show-count="false">Follow @RusticCoder</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^https:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+         </div>
       </div>
       <div id="pagination">
          
@@ -108,9 +124,14 @@
       <div id="content">
          
             <div id="entry" class="border-shadow-blue">
-            <div class="entry-date">Monday, 09 July, 2012</div>
-               <h2 class="entry-title"><a href="./.././archives/woodpecker-programmers.html" rel="bookmark">Woodpecker Programmers</a></h2>
-               <div class="entry-description"></div>
+               <div class="entry-date">
+                  <div style="padding-bottom: 4px;">Monday, 09 July, 2012</div>
+                  <div class="hide-til-load entry-social-top"><span id="instapaper"><a href="//www.instapaper.com/hello2?url=https://rusticcoder.github.io/./archives/woodpecker-programmers.html&amp;title=Woodpecker Programmers" title="Woodpecker Programmers" target="_blank">[Read later]</a></span> <a href="//twitter.com/share" class="twitter-share-button"{count} data-url="//rusticcoder.github.io/./archives/woodpecker-programmers.html" data-text="Woodpecker Programmers" data-via="RusticCoder">Tweet</a></div>
+                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^https:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+               </div>
+               <h2 class="entry-title" itemprop="name"><a href="./.././archives/woodpecker-programmers.html" rel="bookmark">Woodpecker Programmers</a></h2>
+               <div class="entry-description" itemprop="description"></div>
+               <div class="clear-all"></div>
                <hr class="linear-gradient-blue" />
                <div class="entry-body"><p>
   <img src="../images/quotes/gerald_weinberg_woodpecker_programming.jpg" width="800">
@@ -124,8 +145,36 @@
   &#8212;Gerald Weinberg
 </p></div>
                <div class="entry-author">Posted by <a href="http://rusticcoder.github.io/">Rustic Coder</a> at 12:00 AM</div>
+               <div class="clear-all"></div>
                <hr class="linear-gradient-blue" />
-               <div class="entry-categories"><span class="entry-categories-title">Categories:</span> <span id="entry-categories-detail"><a href="./.././archives/cat_quotes.html">Quotes</a></span></div>
+               <div class="hide-til-load entry-social-bottom">
+                  <span id="facebook">
+                     <div class="fb-share-button" data-href="//rusticcoder.github.io/./archives/woodpecker-programmers.html" data-layout="icon"></div>
+                  </span>
+                  <span id="google_plus">
+                     <div class="g-plusone" data-annotation="none" data-size="medium" data-width="300" data-href="//rusticcoder.github.io/./archives/woodpecker-programmers.html"></div>
+                  </span>
+                  <span id="linkedin">
+                     <script type="IN/Share" data-url="//rusticcoder.github.io/./archives/woodpecker-programmers.html"></script>
+                  </span>
+                  <span id="reddit">
+                     <script type="text/javascript">
+                       reddit_url="//rusticcoder.github.io/./archives/woodpecker-programmers.html";
+                       reddit_title="Woodpecker Programmers";
+                       reddit_bgcolor="rgba(240, 240, 240, 1.0)";
+                       reddit_bordercolor="rgba(16, 16, 16, 1.0)";
+                       reddit_newwindow='1';
+                     </script>
+                     <script type="text/javascript" src="//www.redditstatic.com/button/button1.js"></script>
+                  </span>
+                  <span id="ycombinator">
+                     <a href="//news.ycombinator.com/submitlink?u=https://rusticcoder.github.io/./archives/woodpecker-programmers.html&amp;t=Woodpecker Programmers" target="_blank"><img src="//news.ycombinator.com/y18.gif" title="Submit 'Woodpecker Programmers' to Hacker News" height="22px"></a>
+                  </span>
+                  <span id="email">
+                     <a href="mailto:?subject=Woodpecker Programmers&amp;body=https://rusticcoder.github.io/./archives/woodpecker-programmers.html" target="_blank"><img src="./../images/mail21.png"></a>
+                  </span>
+                  <div class="entry-categories"><span class="entry-categories-title">Categories:</span> <span id="entry-categories-detail"><a href="./.././archives/cat_quotes.html">Quotes</a></span></div>
+               </div>
                <div class="clear-all"></div>
                <div class="entry-keywords"><span class="entry-keywords-title">Keywords:</span> <span id="entry-keywords-detail"></span></div>
                <div class="clear-all"></div>
@@ -135,7 +184,7 @@
          
       </div>
       <div id="footer" class="footer-text border-shadow-red">
-         <div>Copyright &copy; 2016 Embracing the Challenges of Technology <a href="#" class="footer-text" style="float: right;">Top</a></div>
+         <div>Copyright &copy; 2016 Embracing the Challenges of Technology <div style="float: right;"><a href="//github.com/RusticCoder/RusticCoder.github.io_Feedback/issues/new" target="_blank" class="border-shadow-blue fallback leave-feedback"><img src="./../images/feedback19.png" style="vertical-align: middle;"> Leave Feedback</a> <a href="#" class="footer-text">Top</a></div></div>
          <div class="clear-all"></div>
       </div>
    </div>

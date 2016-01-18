@@ -26,14 +26,14 @@ div#page {
 }
 
 div#header-mask {
-   background: #000 url(../images/backgrounds/Header.png) repeat fixed center;
+   background: #000 url(../images/backgrounds/Header.png) repeat-x center;
    border-bottom: 16px solid rgba(64, 64, 64, 1.0);
    color: #000;
    position: fixed;
    top: 0;
    left: 0;
    width: 100%;
-   height: 180px;
+   height: 200px;
    z-index: -99;
 }
 
@@ -182,6 +182,7 @@ div.entry-body {
 div.entry-date {
    float: right;
    font-weight: bold;
+   text-align: right;
 }
 
 body#archive-template div.entry-date, body#category-template div.entry-date, body#main-template div.entry-date {
@@ -322,4 +323,58 @@ div.entry-author {
 
 .clear-all {
    clear: both;
+}
+
+div#twitter-follow-button {
+   float: right;
+   padding: 1em 1em 1em 1em;
+}
+
+.leave-feedback {
+   background: rgba(64, 192, 192, 1.0);
+   color: rgba(16, 16, 16, 1.0);
+   margin: 0 1em 0 1em;
+   padding: 2px 2px 2px 2px;
+}
+
+.hide-til-load {
+   display: none;
+}
+
+div#entry div.entry-social-top {
+   float: right;
+   text-align: right;
+}
+
+div#entry div.entry-social-top span#instapaper > a {
+   padding: .5em;
+   text-decoration: none;
+   vertical-align: top;
+}
+
+div#entry div.entry-social-bottom {
+   position: relative;
+}
+
+div#entry div.entry-social-bottom > * {
+   padding: 2px;
+}
+
+div#entry div.entry-social-bottom > span.facebook {
+   transform: scale(1.75);
+   -ms-transform: scale(1.75);
+   -webkit-transform: scale(1.75);
+   -o-transform: scale(1.75);
+   -moz-transform: scale(1.75);
+   transform-origin: top left;
+   -ms-transform-origin: top left;
+   -webkit-transform-origin: top left;
+   -moz-transform-origin: top left;
+   -webkit-transform-origin: top left;
+   vertical-align: top;
+   width: 26px;
+}
+
+div#entry div.entry-social-bottom > span.reddit {
+   vertical-align: bottom;
 }

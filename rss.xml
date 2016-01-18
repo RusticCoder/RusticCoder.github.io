@@ -6,8 +6,8 @@
 <description></description>
 <language>en-AU</language>
 <copyright>Copyright 2016</copyright>
-<lastBuildDate>Sat, 16 Jan 2016 20:16:41 -0600</lastBuildDate>
-<pubDate>Sat, 16 Jan 2016 20:16:41 -0600</pubDate>
+<lastBuildDate>Mon, 18 Jan 2016 16:54:32 -0600</lastBuildDate>
+<pubDate>Mon, 18 Jan 2016 16:54:32 -0600</pubDate>
 <generator>http://thingamablog.sf.net</generator>
 <docs>http://blogs.law.harvard.edu/tech/rss</docs>
 
@@ -50,7 +50,7 @@ solution...
 <link>./archives/bash-script-logging.html</link>
 <guid>./archives/bash-script-logging.html</guid>
 
-<category></category>
+<category>Bash-Scripting</category>
 
 <pubDate>Sun, 24 Feb 2013 10:55:56 -0600</pubDate>
 </item>

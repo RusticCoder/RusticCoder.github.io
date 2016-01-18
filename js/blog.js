@@ -5,7 +5,7 @@ void 0===c?d&&"get"in d&&null!==(e=d.get(a,b))?e:(e=n.find.attr(a,b),null==e?voi
 
 $(document).ready(function() {
    $("#entry-categories-detail:empty, #entry-keywords-detail:empty, #entry-labels-detail:empty").parent().hide()
-   
+
    $('div#nav > ul > li').bind('mouseover', function() {
       $("div#pagination,div#content,div#footer").css('zIndex', '-1');
    });
@@ -13,4 +13,8 @@ $(document).ready(function() {
    $('div#nav > ul > li').bind('mouseout', function() {
       $("div#pagination,div#content,div#footer").css('zIndex', '');
    });
+});
+
+$(window).on('load', function() {
+   $(".hide-til-load").show();
 });

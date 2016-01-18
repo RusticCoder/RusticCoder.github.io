@@ -6,8 +6,8 @@
 <description></description>
 <language>en-AU</language>
 <copyright>Copyright 2016</copyright>
-<lastBuildDate>Sat, 16 Jan 2016 20:16:40 -0600</lastBuildDate>
-<pubDate>Sat, 16 Jan 2016 20:16:40 -0600</pubDate>
+<lastBuildDate>Mon, 18 Jan 2016 16:54:33 -0600</lastBuildDate>
+<pubDate>Mon, 18 Jan 2016 16:54:33 -0600</pubDate>
 <generator>http://thingamablog.sf.net</generator>
 <docs>http://blogs.law.harvard.edu/tech/rss</docs>
 
@@ -55,6 +55,58 @@
 <category>Bash-Scripting</category>
 
 <pubDate>Sun, 24 Feb 2013 11:22:32 -0600</pubDate>
+</item>
+
+<item>
+<title>Bash Script Logging</title>
+<description>I often write bash scripts that run as cron jobs.&amp;#160; The most important 
+    question is &amp;quot;What went wrong?&amp;quot;.&amp;#160; This simple solution makes sure there is 
+    always a daily log available.&amp;#160; Another important note, don't fill up your 
+    file system with logs.&lt;br&gt;&lt;br&gt;
+
+    &lt;blockquote&gt;
+      SCRIPT_NAME=`basename &amp;quot;${0}&amp;quot; .sh`&lt;br&gt;CURRENT_DATE=`date 
+      +'%Y%m%d'`&lt;br&gt;LOG_DIR=&amp;quot;~/logs&amp;quot;&lt;br&gt;LOG_FILE=&amp;quot;${LOG_DIR}/${SCRIPT_NAME}_${CURRENT_DATE}.log&amp;quot;&lt;br&gt;ERROR_FILE=&amp;quot;${LOG_DIR}/${SCRIPT_NAME}_${CURRENT_DATE}.err&amp;quot;&lt;br&gt;&lt;br&gt;mkdir 
+      -p &amp;quot;${LOG_DIR}&amp;quot;&lt;br&gt;&lt;br&gt;{&lt;br&gt;&amp;#160;&amp;#160; echo &amp;quot;&amp;quot;&lt;br&gt;&amp;#160;&amp;#160; 
+      echo &amp;quot;`date +'%Y-%m-%d %H:%M:%S'` ${SCRIPT_NAME}: STARTING&amp;quot; | tee -a 
+      &amp;quot;${LOG_FILE}&amp;quot; &amp;quot;${ERROR_FILE}&amp;quot; &amp;gt; /dev/null 2&amp;gt;&amp;amp;1&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;#160;&amp;#160; 
+      echo &amp;quot;`date +'%Y-%m-%d %H:%M:%S'` ${SCRIPT_NAME}: Lets backup our code&amp;quot;&lt;br&gt;&amp;#160;&amp;#160; 
+      rsync -a source/ destination/&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;#160;&amp;#160; echo &amp;quot;`date +'%Y-%m-%d 
+      %H:%M:%S'` ${SCRIPT_NAME}: Remove old log files&amp;quot;&lt;br&gt;&amp;#160;&amp;#160; find 
+      &amp;quot;${LOG_DIR}&amp;quot; -type f -name &amp;quot;${SCRIPT_NAME}_*.log&amp;quot; -daystart -mtime +6 
+      -delete&lt;br&gt;&lt;br&gt;&amp;#160;&amp;#160; echo &amp;quot;`date +'%Y-%m-%d %H:%M:%S'` ${SCRIPT_NAME}: 
+      Remove old error files&amp;quot;&lt;br&gt;&amp;#160;&amp;#160; find &amp;quot;${LOG_DIR}&amp;quot; -type f -name 
+      &amp;quot;${SCRIPT_NAME}_*.err&amp;quot; -daystart -mtime +6 -delete&lt;br&gt;&lt;br&gt;&amp;#160;&amp;#160; 
+      echo &amp;quot;`date +'%Y-%m-%d %H:%M:%S'` ${SCRIPT_NAME}: FINISHED&amp;quot; | tee -a 
+      &amp;quot;${LOG_FILE}&amp;quot; &amp;quot;${ERROR_FILE}&amp;quot; &amp;gt; /dev/null 2&amp;gt;&amp;amp;1&lt;br&gt;&amp;#160;&amp;#160; 
+      echo &amp;quot;&amp;quot; | tee -a &amp;quot;${LOG_FILE}&amp;quot; &amp;quot;${ERROR_FILE}&amp;quot; &amp;gt; /dev/null 2&amp;gt;&amp;amp;1&lt;br&gt;&lt;br&gt;&amp;#160;&amp;#160; 
+      # Redirect all output to the log file and all errors to the error file.&lt;br&gt;} 
+      &amp;gt;&amp;gt; &amp;quot;${LOG_FILE}&amp;quot; 2&amp;gt;&amp;gt; &amp;quot;${ERROR_FILE}&amp;quot;
+    &lt;/blockquote&gt;
+    &lt;br&gt;
+    We start off with declaring a few variables and making sure the log 
+    directory exists.&lt;br&gt;&lt;br&gt;All standard out and standard error&amp;#160; within the 
+    curly braces is redirected to the log files.&lt;br&gt;&lt;br&gt;All echoed comments 
+    are prefaced with a time stamp and which script created echoed the 
+    comment.&amp;#160; This allows the grepping of several logs without loosing the 
+    context.&lt;br&gt;&lt;br&gt;For specific comments they are echoed to both standard 
+    error and standard log by using the tee command.&amp;#160; When I have a single 
+    rsync and a error is thrown this is not necessary.&amp;#160; But when I have 
+    several statements of the same type echoing a comment to both logs can 
+    help in troubleshooting.&lt;br&gt;&lt;br&gt;Lastly I clean up any old files.&lt;br&gt;&lt;br&gt;This 
+    works well if you want a script to run silently.&amp;#160; Sometimes you want a log 
+    and see the output in the console.&amp;#160; This can be accomplished by changing 
+    the last line.&lt;br&gt;
+
+    &lt;blockquote&gt;
+      } &amp;gt; &amp;gt;(tee -a &amp;quot;${LOG_FILE}&amp;quot;) 2&amp;gt; &amp;gt;(tee -a &amp;quot;${ERROR_FILE}&amp;quot; &amp;gt;&amp;amp;2)
+    &lt;/blockquote&gt;</description>
+<link>./archives/bash-script-logging.html</link>
+<guid>./archives/bash-script-logging.html</guid>
+
+<category>Bash-Scripting</category>
+
+<pubDate>Sun, 24 Feb 2013 10:55:56 -0600</pubDate>
 </item>
 
 <item>
