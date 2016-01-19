@@ -149,164 +149,26 @@
                <div class="entry-description" itemprop="description">Commenting code, the what, when, where, and why of commenting source code.</div>
                <div class="clear-all"></div>
                <hr class="linear-gradient-blue" />
-               <div class="entry-body"><p>
-      I rarely comment my own code. The code I work on is rarely commented by 
-      my predecessors or fellow developers, and what is commented is rarely 
-      helpful. I read the existing comments as a last resort. So now that I am 
-      looking at doing more commenting of my code I need to ask the most 
-      important question, why comment?
-    </p>
-    <p>
-      The code I write is generally readable. I use verbose variable names and 
-      reading from beginning to end the code makes sense. What I've commented 
-      in the past is descriptive overviews or commented sections of code that 
-      are not very clear as to the intent or how it works with other processes.
-    </p>
-    <p>
-      When I've been asked to add more verbose commenting, it is in order to 
-      make the code clearer for others to understand or teach them 
-      programming. The problem I have with this approach is since I understand 
-      the code I don't know what the others do and don't understand about the 
-      code. Who reads the code in the future can very so greatly as far as 
-      skill set and experience that I end up over commenting the code. Instead 
-      of working independently, and commenting for a uncertain future I would 
-      prefer another developer take my code, comment it in their words and ask 
-      me questions as they comment my code. The benefit I see to this approach 
-      is it works as a code review, someone else learns the code as well as I, 
-      and it is commented with a fresh pair of eyes. It's understood that 
-      developers are bad at testing their own code, I feel the same is true 
-      for commenting.
-    </p>
-    <p>
-      Back to the question of why comment? I'm looking toward doing more open 
-      source development. Using open source for many years I've noticed the 
-      best solutions with the most contributors are also the best documented. 
-      When I come across a project with a interesting name but no 
-      documentation or examples I quickly walk away from the project. I'm not 
-      going to waste my time figuring out someone else's code just to find out 
-      it is not the right solution for my purposes.
-    </p>
-    <p>
-      I'm going to build some libraries with the intent to benefit others. 
-      Documentation is critical to make these libraries beneficial to others. 
-      Additionally commenting the code allows me to take a step back and 
-      review the working solution in order to make it better. Improve the 
-      design, refactor to improve the usability and maintainability. For me 
-      software development is a evolutionary process, I never get it right the 
-      first time.
-    </p>
-    <p>
-      When to comment? I feel the general consensus is I should just comment 
-      as we go along. For me every new project is unique. Often involving new 
-      techniques, designs, architectures, and processes. Because I am 
-      experimenting and the code is evolving, I'm refactoring as I go along, 
-      often development is more like a prototype then a product coming off the 
-      assembly line, commenting too soon is counter productive. Once the code 
-      is commented the feeling is it shouldn't change, it's finished. When the 
-      projects done it is often off to the new project, no time to go back and 
-      document.
-    </p>
-    <p>
-      I'm going to try to document more as I go along but I will make a effort 
-      at the end of the project to revisit the comments before considering the 
-      project done. As I comment at the end of the project I will take the 
-      time to take a step back and review the working solution in order to 
-      make it better. Improve the design, refactor to improve the usability 
-      and maintainability.
-    </p>
-    <p>
-      What should be commented is the most difficult. With the purpose of the 
-      comments to help new people to the project and help myself when I come 
-      back a year from now, comment verbosity needs to be taken into account.
-    </p>
-    <p>
-      Comments are not a programming instruction manual. If a developer does 
-      not know the language, syntax, or semantics, their are plenty of good 
-      resources the developer can turn to. Comments are not a description of 
-      best practices or a soap box. Best practices should be project wide not 
-      code specific, documented in a central location to be reviewed and 
-      updated as necessary.
-    </p>
-    <p>
-      Comments detail why was the code was written.
-    </p>
-    <p>
-      Document how the code is to be used, what should this do from a design 
-      perspective..
-    </p>
-    <p>
-      I switched terms from comment to document. I feel there is a difference. 
-      Comments are brief, infrequent, and to the point. Documentation is 
-      verbose, out of the way from the code, and generally more helpful.
-    </p>
-    <p>
-      Comment as you need clarification, document for someone else who will 
-      need clarification.
-    </p>
-    <p>
-      What should be commented? Comment from a high level what is going on. 
-      Comment local objects like functions, structures, enumerations, traits, 
-      closures, etc. as needed. Comment variables in special cases. For local 
-      objects they should be named in a way it is easy to determine its 
-      purpose so comments are not necessary. Code fragments should be brief so 
-      that if the name of a local variable is not clear, reading the code 
-      should revel the purpose of the object. Comment anything that might 
-      appear confusing, odd, or does not work in a standard expected way. And 
-      generally comment as to why the nonstandard, confusing, or odd code was 
-      not refactored.
-    </p>
-    <p>
-      What should be documented? A overview description at the top of the file 
-      and before shared objects like functions, structures, enumerations, 
-      traits, closures, etc. explaining the purpose and detailing its expected 
-      use, and any oddities to expect when using the object. Examples work 
-      very well in documentation.
-    </p>
-    <p>
-      Where should this commenting and documenting be located?
-    </p>
-    <p>
-      For me documentation starts at design. Whether it be cocktail napkin, 
-      e-mail, verbal communication all the design needs to be brought together 
-      into a coherent document. I take that design and slice it up, moving it 
-      into the various areas of the code. This might be front end, back end, 
-      middle tier, test cases, or supporting documents. When all is said and 
-      done the original design document is no more and has been destroyed. I 
-      do this for a few reasons. First, multiple copies of the documentation 
-      become out of sync. Second, it is easier to keep the documentation up to 
-      date and reference the documentation when it is close to the code, 
-      rather then in a document in some obscure location. Third, all too often 
-      someone who has been away from the project will grab the out of date 
-      documentation, reinterpret it, and try to make changes which should not 
-      be made.
-    </p>
-    <p>
-      So as I alluded to the design documentation moves as the project 
-      progresses but finally it must rest somewhere.
-    </p>
-    <ul>
-      <li>
-        At the highest level is the readme which has a high level project 
-        overview, examples, how to install, and how to use the software.
-      </li>
-      <li>
-        Documentation before the specific object is the object level overview.
-      </li>
-      <li>
-        Specific code is documented as needed.
-      </li>
-      <li>
-        But lastly most of the design ends up in the automated test cases. 
-        Test cases prove the code does what the design says it should do.
-      </li>
-    </ul>
-    <p>
-      The challenge is many individuals want a document they can read from 
-      beginning to end and understand every detail of the project. My hope 
-      would be that compiling the readmes along with the test case 
-      documentation would provide a document suitable to understand the 
-      project from beginning to end.
-    </p></div>
+               <div class="entry-body">
+<p>I rarely comment my own code. The code I work on is rarely
+commented by my predecessors or fellow developers, and what is
+commented is rarely helpful. I read the existing comments as a last
+resort. So now that I am looking at doing more commenting of my
+code I need to ask the most important question, why comment?</p>
+<p>The code I write is generally readable. I use verbose variable
+names and reading from beginning to end the code makes sense. What
+I've commented in the past is descriptive overviews or commented
+sections of code that are not very clear as to the intent or how it
+works with other processes.</p>
+<p> When I've been asked to add more verbose commenting, it is in
+order to make the code clearer for others to understand or teach
+them programming. The problem I have with this approach is since I
+understand the code I don't know what the others do and don't
+understand about the code. Who reads the code in the future can
+very so greatly as far as skill set and experience that I end up
+over commenting the code. Instead of working independently, and
+commenting for...</p>
+ <a href="././archives/commenting-and-documenting-code.html" rel="bookmark">read more</a></div>
                <div class="entry-author">Posted by <a href="http://rusticcoder.github.io/">Rustic Coder</a> at 9:24 AM</div>
                <div class="clear-all"></div>
                <hr class="linear-gradient-blue" />
@@ -356,42 +218,64 @@
                <div class="entry-description" itemprop="description"></div>
                <div class="clear-all"></div>
                <hr class="linear-gradient-blue" />
-               <div class="entry-body">Scheduling scripts as cron jobs can be a guessing game.&#160; Schedule the 
-    script to run too closely together e.g. every minute and it can step on 
-    itself.&#160; Schedule it too far apart e.g. every hour and it will not perform 
-    what it is intended to.<br><br>The answer is a PID file.&#160; A PID file is a 
-    file containing the Linux <a href="http://en.wikipedia.org/wiki/Process_identifier" target="_blank">process 
-    identification number (pid)</a> for the current running script.<br><br>By 
-    using the PID file a job can be scheduled to run every minute but will 
-    only execute if it is not already running.<br><br>
-
-    <blockquote>
-      export MAILNAME=`echo &quot;${HOSTNAME}&quot; | cut -d '.' -f 1`<br>export 
-      MAILUSER=RusticCoder<br>export MAILHOST=GMail.com<br>export 
-      MAIL=${MAILUSER}@${MAILHOST}<br>export EMAIL=${MAILUSER}@${MAILHOST}<br>export 
-      REPLYTO=${MAILUSER}@${MAILHOST}<br><br>SCRIPT_NAME=`basename &quot;${0}&quot; .sh`<br>LOG_DIR=&quot;~/logs&quot;<br>PID_FILE=&quot;${LOG_DIR}/${SCRIPT_NAME}.pid&quot;<br><br>mkdir 
-      -p &quot;${LOG_DIR}&quot;<br><br>if [ -f &quot;${PID_FILE}&quot; ]; then<br>&#160;&#160; 
-      OLD_PID=`cat &quot;${PID_FILE}&quot;`<br>&#160;&#160; IS_RUNNING=`ps ax | grep 
-      &quot;${OLD_PID}&quot; | grep &quot;${SCRIPT_NAME}&quot;`<br><br>&#160;&#160; if [ 
-      -n &quot;${IS_RUNNING}&quot; ]; then<br>&#160;&#160;&#160;&#160;&#160; echo &quot;`date +'%Y-%m-%d 
-      %H:%M:%S'` ${SCRIPT_NAME} (Exception): Currently running.&quot;<br>&#160;&#160; 
-      else<br>&#160;&#160;&#160;&#160;&#160; echo &quot;`date +'%Y-%m-%d %H:%M:%S'` ${SCRIPT_NAME}: Not 
-      running remove the PID file.&quot;<br>&#160;&#160;&#160;&#160;&#160; rm -f &quot;${PID_FILE}&quot;<br>&#160;&#160; 
-      fi<br>fi<br><br>if [ -f &quot;${PID_FILE}&quot; ]; then<br>&#160;&#160; if [ `find 
-      &quot;${PID_FILE}&quot; -mmin +30` ]; then<br>&#160;&#160;&#160;&#160;&#160; echo &quot;${0} on 
-      ${HOSTNAME} has been running longer then 30 minutes.&quot; | mail -s 
-      &quot;`basename \&quot;${0}\&quot;` still running&quot; &quot;${EMAIL}&quot; -- -F &quot;${MAILNAME}&quot; -f 
-      &quot;${REPLYTO}&quot;<br>&#160;&#160; fi<br>else<br>&#160;&#160; CURRENT_PID=$$<br><br>&#160;&#160; 
-      echo ${CURRENT_PID} &gt; &quot;${PID_FILE}&quot;<br><br>&#160;&#160;<br>&#160;&#160; 
-      &lt;Perform processing here&gt;<br><br><br>&#160;&#160; if [ -f &quot;${PID_FILE}&quot; ]; 
-      then<br>&#160;&#160;&#160;&#160;&#160; rm -f &quot;${PID_FILE}&quot;<br>&#160;&#160; 
-      fi<br>fi
-    </blockquote>
-    I start by checking if the PID file exists.&#160; Even if the file exists the 
-    process may have been killed.&#160; If the process has been killed just remove 
-    the file.&#160; Then I check again if the file exists and if it has been 
-    running for longer then 30 minutes I let myself know.&#160; Otherwise I create 
-    a PID file, do what I need to do, and remove the file.</div>
+               <div class="entry-body">
+Scheduling scripts as cron jobs can be a guessing game.&nbsp;
+Schedule the script to run too closely together e.g. every minute
+and it can step on itself.&nbsp; Schedule it too far apart e.g.
+every hour and it will not perform what it is intended to.<br />
+<br />
+The answer is a PID file.&nbsp; A PID file is a file containing the
+Linux <a href="http://en.wikipedia.org/wiki/Process_identifier"
+target="_blank">process identification number (pid)</a> for the
+current running script.<br />
+<br />
+By using the PID file a job can be scheduled to run every minute
+but will only execute if it is not already running.<br />
+<br />
+ 
+<blockquote>export MAILNAME=`echo "${HOSTNAME}" | cut -d '.' -f
+1`<br />
+export MAILUSER=RusticCoder<br />
+export MAILHOST=GMail.com<br />
+export MAIL=${MAILUSER}@${MAILHOST}<br />
+export EMAIL=${MAILUSER}@${MAILHOST}<br />
+export REPLYTO=${MAILUSER}@${MAILHOST}<br />
+<br />
+SCRIPT_NAME=`basename "${0}" .sh`<br />
+LOG_DIR="~/logs"<br />
+PID_FILE="${LOG_DIR}/${SCRIPT_NAME}.pid"<br />
+<br />
+mkdir -p "${LOG_DIR}"<br />
+<br />
+if [ -f "${PID_FILE}" ]; then<br />
+&nbsp;&nbsp; OLD_PID=`cat "${PID_FILE}"`<br />
+&nbsp;&nbsp; IS_RUNNING=`ps ax | grep "${OLD_PID}" | grep
+"${SCRIPT_NAME}"`<br />
+<br />
+&nbsp;&nbsp; if [ -n "${IS_RUNNING}" ]; then<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo "`date +'%Y-%m-%d %H:%M:%S'`
+${SCRIPT_NAME} (Exception): Currently running."<br />
+&nbsp;&nbsp; else<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo "`date +'%Y-%m-%d %H:%M:%S'`
+${SCRIPT_NAME}: Not running remove the PID file."<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rm -f "${PID_FILE}"<br />
+&nbsp;&nbsp; fi<br />
+fi<br />
+<br />
+if [ -f "${PID_FILE}" ]; then<br />
+&nbsp;&nbsp; if [ `find "${PID_FILE}" -mmin +30` ]; then<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo "${0} on ${HOSTNAME} has been
+running longer then 30 minutes." | mail -s "`basename \"${0}\"`
+still running" "${EMAIL}" -- -F "${MAILNAME}" -f "${REPLYTO}"<br />
+&nbsp;&nbsp; fi<br />
+else<br />
+&nbsp;&nbsp; CURRENT_PID=$$<br />
+<br />
+&nbsp;&nbsp; echo ${CURRENT_PID} &gt; "${PID_FILE}"<br />
+<br />
+&nbsp;&nbsp;<br />
+&nbsp;&nbsp; &lt;Perform...</blockquote>
+ <a href="././archives/preventing-the-same-script-from-running-at-the-same-time.html" rel="bookmark">read more</a></div>
                <div class="entry-author">Posted by <a href="http://rusticcoder.github.io/">Rustic Coder</a> at 11:22 AM</div>
                <div class="clear-all"></div>
                <hr class="linear-gradient-blue" />
@@ -441,48 +325,63 @@
                <div class="entry-description" itemprop="description"></div>
                <div class="clear-all"></div>
                <hr class="linear-gradient-blue" />
-               <div class="entry-body">I often write bash scripts that run as cron jobs.&#160; The most important 
-    question is &quot;What went wrong?&quot;.&#160; This simple solution makes sure there is 
-    always a daily log available.&#160; Another important note, don't fill up your 
-    file system with logs.<br><br>
-
-    <blockquote>
-      SCRIPT_NAME=`basename &quot;${0}&quot; .sh`<br>CURRENT_DATE=`date 
-      +'%Y%m%d'`<br>LOG_DIR=&quot;~/logs&quot;<br>LOG_FILE=&quot;${LOG_DIR}/${SCRIPT_NAME}_${CURRENT_DATE}.log&quot;<br>ERROR_FILE=&quot;${LOG_DIR}/${SCRIPT_NAME}_${CURRENT_DATE}.err&quot;<br><br>mkdir 
-      -p &quot;${LOG_DIR}&quot;<br><br>{<br>&#160;&#160; echo &quot;&quot;<br>&#160;&#160; 
-      echo &quot;`date +'%Y-%m-%d %H:%M:%S'` ${SCRIPT_NAME}: STARTING&quot; | tee -a 
-      &quot;${LOG_FILE}&quot; &quot;${ERROR_FILE}&quot; &gt; /dev/null 2&gt;&amp;1<br><br><br>&#160;&#160; 
-      echo &quot;`date +'%Y-%m-%d %H:%M:%S'` ${SCRIPT_NAME}: Lets backup our code&quot;<br>&#160;&#160; 
-      rsync -a source/ destination/<br><br><br>&#160;&#160; echo &quot;`date +'%Y-%m-%d 
-      %H:%M:%S'` ${SCRIPT_NAME}: Remove old log files&quot;<br>&#160;&#160; find 
-      &quot;${LOG_DIR}&quot; -type f -name &quot;${SCRIPT_NAME}_*.log&quot; -daystart -mtime +6 
-      -delete<br><br>&#160;&#160; echo &quot;`date +'%Y-%m-%d %H:%M:%S'` ${SCRIPT_NAME}: 
-      Remove old error files&quot;<br>&#160;&#160; find &quot;${LOG_DIR}&quot; -type f -name 
-      &quot;${SCRIPT_NAME}_*.err&quot; -daystart -mtime +6 -delete<br><br>&#160;&#160; 
-      echo &quot;`date +'%Y-%m-%d %H:%M:%S'` ${SCRIPT_NAME}: FINISHED&quot; | tee -a 
-      &quot;${LOG_FILE}&quot; &quot;${ERROR_FILE}&quot; &gt; /dev/null 2&gt;&amp;1<br>&#160;&#160; 
-      echo &quot;&quot; | tee -a &quot;${LOG_FILE}&quot; &quot;${ERROR_FILE}&quot; &gt; /dev/null 2&gt;&amp;1<br><br>&#160;&#160; 
-      # Redirect all output to the log file and all errors to the error file.<br>} 
-      &gt;&gt; &quot;${LOG_FILE}&quot; 2&gt;&gt; &quot;${ERROR_FILE}&quot;
-    </blockquote>
-    <br>
-    We start off with declaring a few variables and making sure the log 
-    directory exists.<br><br>All standard out and standard error&#160; within the 
-    curly braces is redirected to the log files.<br><br>All echoed comments 
-    are prefaced with a time stamp and which script created echoed the 
-    comment.&#160; This allows the grepping of several logs without loosing the 
-    context.<br><br>For specific comments they are echoed to both standard 
-    error and standard log by using the tee command.&#160; When I have a single 
-    rsync and a error is thrown this is not necessary.&#160; But when I have 
-    several statements of the same type echoing a comment to both logs can 
-    help in troubleshooting.<br><br>Lastly I clean up any old files.<br><br>This 
-    works well if you want a script to run silently.&#160; Sometimes you want a log 
-    and see the output in the console.&#160; This can be accomplished by changing 
-    the last line.<br>
-
-    <blockquote>
-      } &gt; &gt;(tee -a &quot;${LOG_FILE}&quot;) 2&gt; &gt;(tee -a &quot;${ERROR_FILE}&quot; &gt;&amp;2)
-    </blockquote></div>
+               <div class="entry-body">
+I often write bash scripts that run as cron jobs.&nbsp; The most
+important question is "What went wrong?".&nbsp; This simple
+solution makes sure there is always a daily log available.&nbsp;
+Another important note, don't fill up your file system with
+logs.<br />
+<br />
+ 
+<blockquote>SCRIPT_NAME=`basename "${0}" .sh`<br />
+CURRENT_DATE=`date +'%Y%m%d'`<br />
+LOG_DIR="~/logs"<br />
+LOG_FILE="${LOG_DIR}/${SCRIPT_NAME}_${CURRENT_DATE}.log"<br />
+ERROR_FILE="${LOG_DIR}/${SCRIPT_NAME}_${CURRENT_DATE}.err"<br />
+<br />
+mkdir -p "${LOG_DIR}"<br />
+<br />
+{<br />
+&nbsp;&nbsp; echo ""<br />
+&nbsp;&nbsp; echo "`date +'%Y-%m-%d %H:%M:%S'` ${SCRIPT_NAME}:
+STARTING" | tee -a "${LOG_FILE}" "${ERROR_FILE}" &gt; /dev/null
+2&gt;&amp;1<br />
+<br />
+<br />
+&nbsp;&nbsp; echo "`date +'%Y-%m-%d %H:%M:%S'` ${SCRIPT_NAME}: Lets
+backup our code"<br />
+&nbsp;&nbsp; rsync -a source/ destination/<br />
+<br />
+<br />
+&nbsp;&nbsp; echo "`date +'%Y-%m-%d %H:%M:%S'` ${SCRIPT_NAME}:
+Remove old log files"<br />
+&nbsp;&nbsp; find "${LOG_DIR}" -type f -name "${SCRIPT_NAME}_*.log"
+-daystart -mtime +6 -delete<br />
+<br />
+&nbsp;&nbsp; echo "`date +'%Y-%m-%d %H:%M:%S'` ${SCRIPT_NAME}:
+Remove old error files"<br />
+&nbsp;&nbsp; find "${LOG_DIR}" -type f -name "${SCRIPT_NAME}_*.err"
+-daystart -mtime +6 -delete<br />
+<br />
+&nbsp;&nbsp; echo "`date +'%Y-%m-%d %H:%M:%S'` ${SCRIPT_NAME}:
+FINISHED" | tee -a "${LOG_FILE}" "${ERROR_FILE}" &gt; /dev/null
+2&gt;&amp;1<br />
+&nbsp;&nbsp; echo "" | tee -a "${LOG_FILE}" "${ERROR_FILE}" &gt;
+/dev/null 2&gt;&amp;1<br />
+<br />
+&nbsp;&nbsp; # Redirect all output to the log file and all errors
+to the error file.<br />
+} &gt;&gt; "${LOG_FILE}" 2&gt;&gt; "${ERROR_FILE}"</blockquote>
+<br />
+ We start off with declaring a few variables and making sure the
+log directory exists.<br />
+<br />
+All standard out and standard error&nbsp; within the curly braces
+is redirected to the log files.<br />
+<br />
+All echoed comments are prefaced with a time stamp and which
+script...
+ <a href="././archives/bash-script-logging.html" rel="bookmark">read more</a></div>
                <div class="entry-author">Posted by <a href="http://rusticcoder.github.io/">Rustic Coder</a> at 10:55 AM</div>
                <div class="clear-all"></div>
                <hr class="linear-gradient-blue" />
@@ -532,26 +431,35 @@
                <div class="entry-description" itemprop="description"></div>
                <div class="clear-all"></div>
                <hr class="linear-gradient-blue" />
-               <div class="entry-body">Using variables in scripts is often a case of personal style.&#160; Years ago 
-    the style I used was to declare all variables at the top of a script.&#160; I 
-    found that challenging with long scripts.&#160; Needing to scroll up and down 
-    to see what the variable is set to.&#160; And while maintaining the script the 
-    value could be changed by another developer not realizing the impact 
-    further down the script.<br><br>Lately the style I use is to declare and 
-    set the variable close to where it is being used.&#160; I upper case with 
-    underscore variables that are not to be changed aka constants.&#160; I camel 
-    case with a initial upper case variables that are meant to change during 
-    the course of the script.<br>
-
-    <blockquote>
-      SCRIPT_NAME=`basename &quot;${0}&quot; .sh`<br>CURRENT_DATE=`date 
-      +'%Y%m%d'`<br>LOG_DIR=&quot;~/logs&quot;<br>LOG_FILE=&quot;${LOG_DIR}/${SCRIPT_NAME}_${CURRENT_DATE}.log&quot;<br>ERROR_FILE=&quot;${LOG_DIR}/${SCRIPT_NAME}_${CURRENT_DATE}.err&quot;<br><br>ItemIndex=0
-    </blockquote>
-    Another personal style is to always use curly braces around variables.&#160; I 
-    find reading the following $SCRIPT_NAME_$CURRENT_DATE.err looks to me like 
-    .err is a method without parameters and the under score before the dollar 
-    sign does not stand out.&#160; For me ${SCRIPT_NAME}_${CURRENT_DATE}.err is 
-    just easier to read.</div>
+               <div class="entry-body">
+Using variables in scripts is often a case of personal style.&nbsp;
+Years ago the style I used was to declare all variables at the top
+of a script.&nbsp; I found that challenging with long
+scripts.&nbsp; Needing to scroll up and down to see what the
+variable is set to.&nbsp; And while maintaining the script the
+value could be changed by another developer not realizing the
+impact further down the script.<br />
+<br />
+Lately the style I use is to declare and set the variable close to
+where it is being used.&nbsp; I upper case with underscore
+variables that are not to be changed aka constants.&nbsp; I camel
+case with a initial upper case variables that are meant to change
+during the course of the script.<br />
+ 
+<blockquote>SCRIPT_NAME=`basename "${0}" .sh`<br />
+CURRENT_DATE=`date +'%Y%m%d'`<br />
+LOG_DIR="~/logs"<br />
+LOG_FILE="${LOG_DIR}/${SCRIPT_NAME}_${CURRENT_DATE}.log"<br />
+ERROR_FILE="${LOG_DIR}/${SCRIPT_NAME}_${CURRENT_DATE}.err"<br />
+<br />
+ItemIndex=0</blockquote>
+Another personal style is to always use curly braces around
+variables.&nbsp; I find reading the following
+$SCRIPT_NAME_$CURRENT_DATE.err looks to me like .err is a method
+without parameters and the under score before the dollar sign does
+not stand out.&nbsp; For me ${SCRIPT_NAME}_${CURRENT_DATE}.err is
+just easier to read.
+ <a href="././archives/when-to-use-variables.html" rel="bookmark">read more</a></div>
                <div class="entry-author">Posted by <a href="http://rusticcoder.github.io/">Rustic Coder</a> at 10:18 AM</div>
                <div class="clear-all"></div>
                <hr class="linear-gradient-blue" />
