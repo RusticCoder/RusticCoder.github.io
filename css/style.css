@@ -363,18 +363,3 @@ div#entry div.entry-social-bottom > span {
 div#entry div.entry-social-bottom span#reddit, div#entry div.entry-social-bottom {
    vertical-align: bottom;
 }
-
-div#entry div.entry-social-bottom span#facebook, div#entry div.entry-social-bottom span#facebook div {
-   transform: scale(1.75);
-   -ms-transform: scale(1.75);
-   -webkit-transform: scale(1.75);
-   -o-transform: scale(1.75);
-   -moz-transform: scale(1.75);
-   transform-origin: top left;
-   -ms-transform-origin: top left;
-   -webkit-transform-origin: top left;
-   -moz-transform-origin: top left;
-   -webkit-transform-origin: top left;
-   vertical-align: top;
-   width: 26px;
-}
