@@ -360,6 +360,10 @@ div#entry div.entry-social-bottom > span {
    padding: 2px;
 }
 
+div#entry div.entry-social-bottom span#reddit, div#entry div.entry-social-bottom {
+   vertical-align: bottom;
+}
+
 div#entry div.entry-social-bottom span#facebook, div#entry div.entry-social-bottom span#facebook div {
    transform: scale(1.75);
    -ms-transform: scale(1.75);
@@ -373,8 +377,4 @@ div#entry div.entry-social-bottom span#facebook, div#entry div.entry-social-bott
    -webkit-transform-origin: top left;
    vertical-align: top;
    width: 26px;
-}
-
-div#entry div.entry-social-bottom span#reddit, div#entry div.entry-social-bottom span#reddit * {
-   vertical-align: bottom;
 }
