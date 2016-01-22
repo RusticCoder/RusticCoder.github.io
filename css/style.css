@@ -352,14 +352,15 @@ div#entry div.entry-social-top span#instapaper > a {
    vertical-align: top;
 }
 
-div#entry div.entry-social-bottom {
-   position: relative;
+div#entry div.entry-social-bottom, div#entry div.entry-social-bottom * {
+   vertical-align: -webkit-baseline-middle;
+}
+
+div#entry div.entry-social-bottom span#ycombinator, div#entry div.entry-social-bottom span#ycombinator *,
+div#entry div.entry-social-bottom span#email, div#entry div.entry-social-bottom span#email * {
+   vertical-align: bottom;
 }
 
 div#entry div.entry-social-bottom > span {
    padding: 2px;
-}
-
-div#entry div.entry-social-bottom span#reddit, div#entry div.entry-social-bottom {
-   vertical-align: bottom;
 }

@@ -1,0 +1,181 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'covgen' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'covgen', null ]
+5 verbose cache add name=undefined spec="covgen" args=["covgen",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'covgen',
+6 verbose parsed url   path: 'covgen',
+6 verbose parsed url   href: 'covgen' }
+7 silly lockFile 7962413e-covgen covgen
+8 verbose lock covgen /home/rustic.coder/.npm/7962413e-covgen.lock
+9 silly lockFile 7962413e-covgen covgen
+10 silly lockFile 7962413e-covgen covgen
+11 verbose addNamed [ 'covgen', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 0312d0c1-covgen covgen@
+14 verbose lock covgen@ /home/rustic.coder/.npm/0312d0c1-covgen.lock
+15 silly addNameRange { name: 'covgen', range: '*', hasData: false }
+16 verbose url raw covgen
+17 verbose url resolving [ 'https://registry.npmjs.org/', './covgen' ]
+18 verbose url resolved https://registry.npmjs.org/covgen
+19 info trying registry request attempt 1 at 20:34:20
+20 http GET https://registry.npmjs.org/covgen
+21 http 200 https://registry.npmjs.org/covgen
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"6QLWUV48G11DAWUG7EFNRPJIB"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'content-length': '6890',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Fri, 22 Jan 2016 02:34:20 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-dfw1821-DFW',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1453430060.582894,VS0,VE49',
+22 silly registry.get     vary: 'Accept' } ]
+23 silly addNameRange number 2 { name: 'covgen', range: '*', hasData: true }
+24 silly addNameRange versions [ 'covgen', [ '0.0.2', '1.0.0', '2.0.0', '2.0.1', '2.0.2' ] ]
+25 verbose addNamed [ 'covgen', '2.0.2' ]
+26 verbose addNamed [ '2.0.2', '2.0.2' ]
+27 silly lockFile 16061bbc-covgen-2-0-2 covgen@2.0.2
+28 verbose lock covgen@2.0.2 /home/rustic.coder/.npm/16061bbc-covgen-2-0-2.lock
+29 silly lockFile e6158369-pmjs-org-covgen-covgen-2-0-2-tgz https://registry.npmjs.org/covgen/-/covgen-2.0.2.tgz
+30 verbose lock https://registry.npmjs.org/covgen/-/covgen-2.0.2.tgz /home/rustic.coder/.npm/e6158369-pmjs-org-covgen-covgen-2-0-2-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/covgen/-/covgen-2.0.2.tgz',
+31 verbose addRemoteTarball   'ca50993eeedb3f3dd8cf861008a27df7246942c0' ]
+32 info retry fetch attempt 1 at 20:34:20
+33 verbose fetch to= /home/rustic.coder/tmp/npm-10840-T676y7hn/1453430060707-0.14326353650540113/tmp.tgz
+34 http GET https://registry.npmjs.org/covgen/-/covgen-2.0.2.tgz
+35 http 200 https://registry.npmjs.org/covgen/-/covgen-2.0.2.tgz
+36 verbose tar unpack /home/rustic.coder/tmp/npm-10840-T676y7hn/1453430060707-0.14326353650540113/tmp.tgz
+37 silly lockFile 0d20c1b2-0707-0-14326353650540113-package tar:///home/rustic.coder/tmp/npm-10840-T676y7hn/1453430060707-0.14326353650540113/package
+38 verbose lock tar:///home/rustic.coder/tmp/npm-10840-T676y7hn/1453430060707-0.14326353650540113/package /home/rustic.coder/.npm/0d20c1b2-0707-0-14326353650540113-package.lock
+39 silly lockFile 57bb6d6c-0707-0-14326353650540113-tmp-tgz tar:///home/rustic.coder/tmp/npm-10840-T676y7hn/1453430060707-0.14326353650540113/tmp.tgz
+40 verbose lock tar:///home/rustic.coder/tmp/npm-10840-T676y7hn/1453430060707-0.14326353650540113/tmp.tgz /home/rustic.coder/.npm/57bb6d6c-0707-0-14326353650540113-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry README.md
+44 silly gunzTarPerm extractEntry LICENSE
+45 silly gunzTarPerm extractEntry covenant.js
+46 silly gunzTarPerm extractEntry CODE_OF_CONDUCT.md
+47 silly lockFile 0d20c1b2-0707-0-14326353650540113-package tar:///home/rustic.coder/tmp/npm-10840-T676y7hn/1453430060707-0.14326353650540113/package
+48 silly lockFile 0d20c1b2-0707-0-14326353650540113-package tar:///home/rustic.coder/tmp/npm-10840-T676y7hn/1453430060707-0.14326353650540113/package
+49 silly lockFile 57bb6d6c-0707-0-14326353650540113-tmp-tgz tar:///home/rustic.coder/tmp/npm-10840-T676y7hn/1453430060707-0.14326353650540113/tmp.tgz
+50 silly lockFile 57bb6d6c-0707-0-14326353650540113-tmp-tgz tar:///home/rustic.coder/tmp/npm-10840-T676y7hn/1453430060707-0.14326353650540113/tmp.tgz
+51 verbose tar pack [ '/home/rustic.coder/.npm/covgen/2.0.2/package.tgz',
+51 verbose tar pack   '/home/rustic.coder/tmp/npm-10840-T676y7hn/1453430060707-0.14326353650540113/package' ]
+52 verbose tarball /home/rustic.coder/.npm/covgen/2.0.2/package.tgz
+53 verbose folder /home/rustic.coder/tmp/npm-10840-T676y7hn/1453430060707-0.14326353650540113/package
+54 silly lockFile 0d20c1b2-0707-0-14326353650540113-package tar:///home/rustic.coder/tmp/npm-10840-T676y7hn/1453430060707-0.14326353650540113/package
+55 verbose lock tar:///home/rustic.coder/tmp/npm-10840-T676y7hn/1453430060707-0.14326353650540113/package /home/rustic.coder/.npm/0d20c1b2-0707-0-14326353650540113-package.lock
+56 silly lockFile 2d669f45-der-npm-covgen-2-0-2-package-tgz tar:///home/rustic.coder/.npm/covgen/2.0.2/package.tgz
+57 verbose lock tar:///home/rustic.coder/.npm/covgen/2.0.2/package.tgz /home/rustic.coder/.npm/2d669f45-der-npm-covgen-2-0-2-package-tgz.lock
+58 silly lockFile 0d20c1b2-0707-0-14326353650540113-package tar:///home/rustic.coder/tmp/npm-10840-T676y7hn/1453430060707-0.14326353650540113/package
+59 silly lockFile 0d20c1b2-0707-0-14326353650540113-package tar:///home/rustic.coder/tmp/npm-10840-T676y7hn/1453430060707-0.14326353650540113/package
+60 silly lockFile 2d669f45-der-npm-covgen-2-0-2-package-tgz tar:///home/rustic.coder/.npm/covgen/2.0.2/package.tgz
+61 silly lockFile 2d669f45-der-npm-covgen-2-0-2-package-tgz tar:///home/rustic.coder/.npm/covgen/2.0.2/package.tgz
+62 silly lockFile d69583b7-c-coder-npm-covgen-2-0-2-package /home/rustic.coder/.npm/covgen/2.0.2/package
+63 verbose lock /home/rustic.coder/.npm/covgen/2.0.2/package /home/rustic.coder/.npm/d69583b7-c-coder-npm-covgen-2-0-2-package.lock
+64 silly lockFile d69583b7-c-coder-npm-covgen-2-0-2-package /home/rustic.coder/.npm/covgen/2.0.2/package
+65 silly lockFile d69583b7-c-coder-npm-covgen-2-0-2-package /home/rustic.coder/.npm/covgen/2.0.2/package
+66 verbose tar unpack /home/rustic.coder/.npm/covgen/2.0.2/package.tgz
+67 silly lockFile b6201777-c-coder-npm-covgen-2-0-2-package tar:///home/rustic.coder/.npm/covgen/2.0.2/package
+68 verbose lock tar:///home/rustic.coder/.npm/covgen/2.0.2/package /home/rustic.coder/.npm/b6201777-c-coder-npm-covgen-2-0-2-package.lock
+69 silly lockFile 2d669f45-der-npm-covgen-2-0-2-package-tgz tar:///home/rustic.coder/.npm/covgen/2.0.2/package.tgz
+70 verbose lock tar:///home/rustic.coder/.npm/covgen/2.0.2/package.tgz /home/rustic.coder/.npm/2d669f45-der-npm-covgen-2-0-2-package-tgz.lock
+71 silly gunzTarPerm modes [ '755', '644' ]
+72 silly gunzTarPerm extractEntry package.json
+73 silly gunzTarPerm extractEntry README.md
+74 silly gunzTarPerm extractEntry LICENSE
+75 silly gunzTarPerm extractEntry covenant.js
+76 silly gunzTarPerm extractEntry CODE_OF_CONDUCT.md
+77 silly lockFile b6201777-c-coder-npm-covgen-2-0-2-package tar:///home/rustic.coder/.npm/covgen/2.0.2/package
+78 silly lockFile b6201777-c-coder-npm-covgen-2-0-2-package tar:///home/rustic.coder/.npm/covgen/2.0.2/package
+79 silly lockFile 2d669f45-der-npm-covgen-2-0-2-package-tgz tar:///home/rustic.coder/.npm/covgen/2.0.2/package.tgz
+80 silly lockFile 2d669f45-der-npm-covgen-2-0-2-package-tgz tar:///home/rustic.coder/.npm/covgen/2.0.2/package.tgz
+81 verbose chmod /home/rustic.coder/.npm/covgen/2.0.2/package.tgz 644
+82 verbose chown /home/rustic.coder/.npm/covgen/2.0.2/package.tgz [ 1001, 1001 ]
+83 silly lockFile e6158369-pmjs-org-covgen-covgen-2-0-2-tgz https://registry.npmjs.org/covgen/-/covgen-2.0.2.tgz
+84 silly lockFile e6158369-pmjs-org-covgen-covgen-2-0-2-tgz https://registry.npmjs.org/covgen/-/covgen-2.0.2.tgz
+85 silly lockFile 16061bbc-covgen-2-0-2 covgen@2.0.2
+86 silly lockFile 16061bbc-covgen-2-0-2 covgen@2.0.2
+87 silly lockFile 0312d0c1-covgen covgen@
+88 silly lockFile 0312d0c1-covgen covgen@
+89 silly resolved [ { author: { name: 'Simon Vansintjan' },
+89 silly resolved     name: 'covgen',
+89 silly resolved     description: 'Pulls down the Contributors Covenant into your project.',
+89 silly resolved     version: '2.0.2',
+89 silly resolved     repository:
+89 silly resolved      { type: 'git',
+89 silly resolved        url: 'git://github.com/simonv3/covenant-generator.git' },
+89 silly resolved     main: 'covenant.js',
+89 silly resolved     bin: { covgen: 'covenant.js' },
+89 silly resolved     engines: { node: '>=0.4' },
+89 silly resolved     devDependencies: {},
+89 silly resolved     license: 'MIT',
+89 silly resolved     keywords:
+89 silly resolved      [ 'github',
+89 silly resolved        'markdown',
+89 silly resolved        'documentation',
+89 silly resolved        'code-of-conduct',
+89 silly resolved        'contributors-covenant' ],
+89 silly resolved     dependencies: { request: '^2.65.0' },
+89 silly resolved     readme: '# Covenant Generator\n\n```\nnpm install -g covgen\n```\n\nAnd then in your new projects:\n\n```\ncovgen <your_email_address>\n```\n\nGenerates the [Contributor Covenant](http://contributor-covenant.org/) inside the current directory.\n\nWarning! Just copy and pasting a code of conduct isn\'t a fix. You have to live by it.\n\nI\'ve made this project because the Contributor Covenant is a really good Code of Conduct to use as a standard and if you\'ve read and will abide by it, it\'s a good default to include in your project.\n\nThe code of conduct in this repository was generated with covenant generator.\n',
+89 silly resolved     readmeFilename: 'README.md',
+89 silly resolved     bugs: { url: 'https://github.com/simonv3/covenant-generator/issues' },
+89 silly resolved     _id: 'covgen@2.0.2',
+89 silly resolved     dist: { shasum: '6ffdca85a977c9817e942e5149bb31a6a40eb7c7' },
+89 silly resolved     _from: 'covgen@',
+89 silly resolved     _resolved: 'https://registry.npmjs.org/covgen/-/covgen-2.0.2.tgz' } ]
+90 info install covgen@2.0.2 into /usr/local/lib
+91 info installOne covgen@2.0.2
+92 info /usr/local/lib/node_modules/covgen unbuild
+93 verbose tar unpack /home/rustic.coder/.npm/covgen/2.0.2/package.tgz
+94 silly lockFile e33f5108-sr-local-lib-node-modules-covgen tar:///usr/local/lib/node_modules/covgen
+95 verbose lock tar:///usr/local/lib/node_modules/covgen /home/rustic.coder/.npm/e33f5108-sr-local-lib-node-modules-covgen.lock
+96 silly lockFile 2d669f45-der-npm-covgen-2-0-2-package-tgz tar:///home/rustic.coder/.npm/covgen/2.0.2/package.tgz
+97 verbose lock tar:///home/rustic.coder/.npm/covgen/2.0.2/package.tgz /home/rustic.coder/.npm/2d669f45-der-npm-covgen-2-0-2-package-tgz.lock
+98 silly gunzTarPerm modes [ '755', '644' ]
+99 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
+99 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
+99 error   errno: 3,
+99 error   code: 'EACCES',
+99 error   path: '/usr/local/lib/node_modules',
+99 error   fstream_type: 'Directory',
+99 error   fstream_path: '/usr/local/lib/node_modules/covgen',
+99 error   fstream_class: 'DirWriter',
+99 error   fstream_stack:
+99 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
+99 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+99 error      'Object.oncomplete (fs.js:107:15)' ] }
+100 error Please try running this command again as root/Administrator.
+101 error System Linux 3.16.0-38-generic
+102 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "covgen"
+103 error cwd /home/rustic.coder/RusticCoder.github.io
+104 error node -v v0.10.25
+105 error npm -v 1.3.10
+106 error path /usr/local/lib/node_modules
+107 error fstream_path /usr/local/lib/node_modules/covgen
+108 error fstream_type Directory
+109 error fstream_class DirWriter
+110 error code EACCES
+111 error errno 3
+112 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
+113 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
+113 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+113 error fstream_stack Object.oncomplete (fs.js:107:15)
+114 verbose exit [ 3, true ]
