@@ -365,6 +365,7 @@ div#entry div.entry-social-bottom, div#entry div.entry-social-bottom * {
 
 div#entry div.entry-social-bottom span#ycombinator, div#entry div.entry-social-bottom span#ycombinator *,
 div#entry div.entry-social-bottom span#email, div#entry div.entry-social-bottom span#email * {
+   margin-bottom: 2px;
    vertical-align: bottom;
 }
 
