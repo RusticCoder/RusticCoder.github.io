@@ -161,7 +161,6 @@ div#pagination a {
 }
 
 div#content, div#entry {
-   font-weight: bold;
    position: relative;
 }
 
@@ -176,7 +175,12 @@ div#footer {
    z-index: 0;
 }
 
+div#footer div#footer-right {
+   float: right;
+}
+
 div.entry-body {
+   font-size: 14px;
 }
 
 div.entry-date {
@@ -197,17 +201,20 @@ body#archive-template div.entry-date-day, body#category-template div.entry-date-
    font-size: 24px;
 }
 
-div.entry-categories, div.entry-keywords, div.entry-labels {
+div#entry div.entry-social-bottom div.entry-categories, div.entry-keywords, div.entry-labels {
    float: right;
 }
 
-div.entry-categories .entry-categories-title, div.entry-keywords .entry-keywords-title, div.entry-labels .entry-labels-title {
+div#entry div.entry-social-bottom div.entry-categories, div#entry div.entry-social-bottom div.entry-categories * {
+   vertical-align: text-bottom;
+}
+
+div#entry div.entry-social-bottom div.entry-categories .entry-categories-title, div.entry-keywords .entry-keywords-title, div.entry-labels .entry-labels-title {
    font-weight: bold;
 }
 
 div.entry-author {
    padding-top: 1em;
-   font-weight: normal;
 }
 
 .border-shadow-blue {
@@ -333,7 +340,7 @@ div#twitter-follow-button {
 .leave-feedback {
    background: rgba(64, 192, 192, 1.0);
    color: rgba(16, 16, 16, 1.0);
-   margin: 0 1em 0 1em;
+   margin: 0 0 0 0;
    padding: 2px 2px 2px 2px;
 }
 
